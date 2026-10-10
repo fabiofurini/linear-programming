@@ -1,0 +1,107 @@
+---
+title: "LP problems with three variables – Type C"
+---
+
+# LP problems with three variables – Type C
+
+<div class="info-capitolo" markdown>
+
+**Catalogue of LP problems** · [:material-file-pdf-box: Problem catalogue (PDF)](../pdf/lp-problem-catalogue.pdf)
+
+</div>
+
+## LP Problem $P61$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {3\,x_1} & {+} & {\,x_2} & {+} & {2\,x_3} &  &  \\[2ex]
+    \text{subject to} &  & {\,x_1} &  &  & {+} & {\,x_3} & {\le} & {5} \\[2ex]
+    & {-} & {\,x_1} &  &  & {-} & {\,x_3} & {\le} & {-4} \\[2ex]
+    & {-} & {\,x_1} & {+} & {2\,x_2} & {+} & {\,x_3} & {\le} & {5} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 1](../img/cat-3-variables-type-c/fig01.svg){ .fig .ovale loading=lazy style="width:79%" }
+
+## LP Problem $P62$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {2\,x_1} & {+} & {3\,x_2} & {+} & {\,x_3} &  &  \\[2ex]
+    \text{subject to} &  &  &  & {\,x_2} & {+} & {\,x_3} & {\le} & {6} \\[2ex]
+    & {-} & {2\,x_1} & {-} & {\,x_2} & {-} & {\,x_3} & {\le} & {-2} \\[2ex]
+    &  & {2\,x_1} &  &  & {-} & {\,x_3} & {\le} & {4} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 2](../img/cat-3-variables-type-c/fig02.svg){ .fig .ovale loading=lazy style="width:79%" }
+
+## LP Problem $P63$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {\,x_1} & {+} & {2\,x_2} & {+} & {2\,x_3} &  &  \\[2ex]
+    \text{subject to} &  & {\,x_1} & {+} & {\,x_2} &  &  & {\le} & {4} \\[2ex]
+    &  & {\,x_1} & {+} & {2\,x_2} & {-} & {\,x_3} & {\le} & {6} \\[2ex]
+    & {-} & {2\,x_1} & {-} & {2\,x_2} & {+} & {\,x_3} & {\le} & {-3} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 3](../img/cat-3-variables-type-c/fig03.svg){ .fig .ovale loading=lazy style="width:79%" }
+
+## LP Problem $P64$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {3\,x_1} & {+} & {2\,x_2} & {+} & {\,x_3} &  &  \\[2ex]
+    \text{subject to} & {-} & {\,x_1} & {-} & {2\,x_2} & {-} & {2\,x_3} & {\le} & {-3} \\[2ex]
+    &  & {\,x_1} & {+} & {\,x_2} & {+} & {\,x_3} & {\le} & {5} \\[2ex]
+    &  &  &  & {\,x_2} & {-} & {\,x_3} & {\le} & {2} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 4](../img/cat-3-variables-type-c/fig04.svg){ .fig .ovale loading=lazy style="width:79%" }
+
+## LP Problem $P65$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {2\,x_1} & {+} & {3\,x_2} & {+} & {3\,x_3} &  &  \\[2ex]
+    \text{subject to} &  & {\,x_1} & {+} & {\,x_2} &  &  & {\le} & {5} \\[2ex]
+    &  & {2\,x_1} & {-} & {\,x_2} &  &  & {\le} & {4} \\[2ex]
+    & {-} & {2\,x_1} & {-} & {\,x_2} & {+} & {\,x_3} & {\le} & {-3} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 5](../img/cat-3-variables-type-c/fig05.svg){ .fig .ovale loading=lazy style="width:71%" }
+
+## LP Problem $P66$
+
+!!! chiave ""
+
+    $$
+    \begin{array}{rrrrrrrrrrrrrrrr}
+    {\max} &  & {2\,x_1} & {+} & {\,x_2} & {+} & {\,x_3} &  &  \\[2ex]
+    \text{subject to} & {-} & {2\,x_1} & {+} & {\,x_2} & {-} & {2\,x_3} & {\le} & {-3} \\[2ex]
+    &  & {\,x_1} &  &  & {+} & {\,x_3} & {\le} & {3} \\[2ex]
+    & {-} & {2\,x_1} & {+} & {2\,x_2} &  &  & {\le} & {2} \\[2ex]
+    &  & {x_1,} &  & {x_2,} &  & {x_3} & { \ge} & { 0 }
+    \end{array}
+    $$
+
+![Figure 6](../img/cat-3-variables-type-c/fig06.svg){ .fig .ovale loading=lazy style="width:79%" }
