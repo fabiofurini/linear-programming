@@ -37,8 +37,5 @@ docs/notebooks.md
 docs/javascripts/catalogo_pl.js
 docs/stylesheets/interattivi.css
 
-# volumi generati: git traccia SOLO i PDF delle dispense (mai .tex, .aux e altri file di compilazione)
-volumes/*
-!volumes/lecture_notes_*/
-volumes/lecture_notes_*/*
-!volumes/lecture_notes_*/*.pdf
+# volumi generati (tex e PDF): fuori da git; online i PDF stanno in docs/pdf/
+volumes/
