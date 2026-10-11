@@ -1,3 +1,8 @@
+---
+hide:
+  - navigation
+---
+
 # Interactive lab
 
 Here you can get your hands on linear programming. Pick an app: it opens full page.
