@@ -596,7 +596,7 @@ title: "Duality theory"
     \left(
     \hat c_j - \sum_{i=1}^{m} a_{ij}\hat c_{n+i}
     \right)x_j.
-    \tag{A}\label{A} \tag{9.5}
+    \tag{A}\label{A}
     \end{align*}
 
     Since $\eqref{A}$ is an identity in the variables $x_1,x_2,\dots,x_n$, it holds for every choice of these variables. Therefore, the constant terms on the two sides must coincide, and the coefficients of each variable must also coincide. Hence,
@@ -605,7 +605,7 @@ title: "Duality theory"
     \tag{B}\label{B}
     \bar z + \sum_{i=1}^{m} b_i \hat c_{n+i}  = 0
     \qquad \Longrightarrow \qquad
-    \bar z = -\sum_{i=1}^{m} b_i \hat c_{n+i}, \tag{9.6}
+    \bar z = -\sum_{i=1}^{m} b_i \hat c_{n+i},
     \end{equation*}
 
     and
@@ -616,7 +616,7 @@ title: "Duality theory"
     =
     \hat c_j - \sum_{i=1}^{m} a_{ij} \hat c_{n+i},
     \qquad
-    \forall j \in \{1,2,\dots,n\}. \tag{9.7}
+    \forall j \in \{1,2,\dots,n\}.
     \end{equation*}
 
     Now we define
@@ -625,7 +625,7 @@ title: "Duality theory"
     \tag{D}\label{D}
     \tilde \pi_i = -\hat c_{n+i},
     \qquad
-    \forall i \in \{1,2,\dots,m\}, \tag{9.8}
+    \forall i \in \{1,2,\dots,m\},
     \end{equation*}
 
     and we show that $(\tilde \pi_1,\tilde \pi_2,\dots,\tilde \pi_m)$ is an optimal solution of the dual problem [(9.2)](#eq-DUAL) satisfying $\eqref{SD}$.
@@ -1055,13 +1055,13 @@ title: "Duality theory"
     \quad \text{or} \quad
     \bar \pi_i = 0,
     \qquad
-    \forall i \in \{1,\dots,m\}, \tag{9.9a}\\[2ex]
+    \forall i \in \{1,\dots,m\}, \tag{9.5a}\\[2ex]
     \label{QQ}
     \sum_{i=1}^m a_{ij}\bar \pi_i = c_j
     \quad \text{or} \quad
     \bar x_j = 0,
     \qquad
-    \forall j \in \{1,\dots,n\}. \tag{9.9b}
+    \forall j \in \{1,\dots,n\}. \tag{9.5b}
     \end{align*}
 
 - In $\eqref{WW}$ and $\eqref{QQ}$, the “or” is inclusive, that is, both conditions may hold simultaneously.
@@ -1078,11 +1078,11 @@ title: "Duality theory"
     \label{WW_bis}
     \bar \pi_i \: \left( \sum_{j=1}^n a_{ij}\bar x_j - b_i \right) = 0,
     \qquad
-    \forall i \in \{1,\dots,m\}, \tag{9.10a}\\[2ex]
+    \forall i \in \{1,\dots,m\}, \tag{9.6a}\\[2ex]
     \label{QQ_bis}
     \bar x_j \: \left(c_j - \sum_{i=1}^m a_{ij}\bar \pi_i   \right) = 0,
     \qquad
-    \forall j \in \{1,\dots,n\}. \tag{9.10b}
+    \forall j \in \{1,\dots,n\}. \tag{9.6b}
     \end{align*}
 
 - Complementary Slackness implies that
@@ -1315,7 +1315,7 @@ title: "Duality theory"
     =
     \sum_{i=1}^{m} \left( \sum_{j=1}^{n} a_{ij}\bar x_j \right)\bar \pi_i
     \le
-    \sum_{i=1}^{m} b_i \bar \pi_i. \tag{9.11}
+    \sum_{i=1}^{m} b_i \bar \pi_i.
     \end{equation*}
 
     The first inequality of $\eqref{KKK}$ can be rewritten as
@@ -1402,13 +1402,13 @@ title: "Duality theory"
 
     \begin{align*}
     \label{ZZ1}
-    &\sum_{i=1}^m a_{ij} \bar  \pi_i = c_j \quad \text{if} \quad  \bar  x_j>0, \qquad \forall j \in \{1,\dots,n\}, \tag{9.12a}\\[2ex]
+    &\sum_{i=1}^m a_{ij} \bar  \pi_i = c_j \quad \text{if} \quad  \bar  x_j>0, \qquad \forall j \in \{1,\dots,n\}, \tag{9.7a}\\[2ex]
     \label{ZZ2}
-    &\bar  \pi_i = 0 \quad \text{if} \quad  \sum_{j=1}^n a_{ij} \bar  x_j < b_i, \qquad \forall i \in \{1,\dots,m\}, \tag{9.12b}\\[2ex]
+    &\bar  \pi_i = 0 \quad \text{if} \quad  \sum_{j=1}^n a_{ij} \bar  x_j < b_i, \qquad \forall i \in \{1,\dots,m\}, \tag{9.7b}\\[2ex]
     \label{ZZ3}
-    &\sum_{i=1}^m a_{ij} \bar  \pi_i \ge c_j, \qquad \forall j \in \{1,\dots,n\}, \tag{9.12c}\\[2ex]
+    &\sum_{i=1}^m a_{ij} \bar  \pi_i \ge c_j, \qquad \forall j \in \{1,\dots,n\}, \tag{9.7c}\\[2ex]
     \label{ZZ4}
-    &\bar  \pi_i \ge 0, \qquad \forall i\in \{1,\dots,m\}. \tag{9.12d}
+    &\bar  \pi_i \ge 0, \qquad \forall i\in \{1,\dots,m\}. \tag{9.7d}
     \end{align*}
 
 ??? dimostrazione "Proof"
@@ -1717,13 +1717,13 @@ title: "Duality theory"
     <a id="eq-GEN_PRIMAL"></a>
 
     \begin{align*}
-    &&   \max \;\;{\sum_{j \in N} c_j \, x_j}                                \tag{9.13a}\\[1ex]
-    && \text{subject to} \quad  {\sum_{j \in N} a_{ij} \, x_j}  &\leq b_i,   & \forall i \in M_{\le},                      \tag{9.13b}\\[1ex]
-    && {\sum_{j \in N} a_{ij} \, x_j}  &= b_i,   & \forall i \in M_{=},                      \tag{9.13c}\\[1ex]
-    && {\sum_{j \in N} a_{ij} \, x_j}  &\ge b_i,   & \forall i \in M_{\ge},                      \tag{9.13d}\\[1ex]
-    &&x_j                        &\ge  0, & \forall j \in N_{\ge 0}, \tag{9.13e}\\[1ex]
-    &&x_j                        &\gtreqless  0, & \forall j \in N_{\gtreqless 0}, \tag{9.13f}\\[1ex]
-    &&x_j                        &\le  0, & \forall j \in N_{\le 0}, \tag{9.13g}
+    &&   \max \;\;{\sum_{j \in N} c_j \, x_j}                                \tag{9.8a}\\[1ex]
+    && \text{subject to} \quad  {\sum_{j \in N} a_{ij} \, x_j}  &\leq b_i,   & \forall i \in M_{\le},                      \tag{9.8b}\\[1ex]
+    && {\sum_{j \in N} a_{ij} \, x_j}  &= b_i,   & \forall i \in M_{=},                      \tag{9.8c}\\[1ex]
+    && {\sum_{j \in N} a_{ij} \, x_j}  &\ge b_i,   & \forall i \in M_{\ge},                      \tag{9.8d}\\[1ex]
+    &&x_j                        &\ge  0, & \forall j \in N_{\ge 0}, \tag{9.8e}\\[1ex]
+    &&x_j                        &\gtreqless  0, & \forall j \in N_{\gtreqless 0}, \tag{9.8f}\\[1ex]
+    &&x_j                        &\le  0, & \forall j \in N_{\le 0}, \tag{9.8g}
     \end{align*}
 
     where
@@ -1732,18 +1732,18 @@ title: "Duality theory"
 
     2. $M_{\le}$, $M_{=}$ and $M_{\ge}$ are the disjoint subsets of indices of the less-than-or-equal-to, equality and greater-than-or-equal-to constraints, respectively, and $M= M_{\le } \cup  M_{=} \cup M_{\ge}$.
 
-    the <strong>dual problem</strong> $D(LP)$ of the LP problem [(9.13)](#eq-GEN_PRIMAL) is the following LP problem:
+    the <strong>dual problem</strong> $D(LP)$ of the LP problem [(9.8)](#eq-GEN_PRIMAL) is the following LP problem:
 
     <a id="eq-GEN_DUAL"></a>
 
     \begin{align*}
-    &&   \min \;\;{\sum_{i \in M} b_i \, \pi_i}                                \tag{9.14a}\\[1ex]
-    && \text{subject to} \quad  {\sum_{i \in M} a_{ij} \, \pi_i}  &\geq c_j,   & \forall j \in N_{\ge 0},                     \tag{9.14b}\\[1ex]
-    && {\sum_{i \in M} a_{ij} \, \pi_i}  &= c_j,   & \forall j \in N_{\gtreqless 0},                     \tag{9.14c}\\[1ex]
-    && {\sum_{i \in M} a_{ij} \, \pi_i}  &\le c_j,   & \forall j \in N_{\le 0},                     \tag{9.14d}\\[1ex]
-    &&\pi_i                        &\ge  0, & \forall i \in M_{\le}, \tag{9.14e}\\[1ex]
-    &&\pi_i                        &\gtreqless  0, & \forall i \in M_{=}, \tag{9.14f}\\[1ex]
-    &&\pi_i                        &\le  0, & \forall i \in M_{\ge}. \tag{9.14g}
+    &&   \min \;\;{\sum_{i \in M} b_i \, \pi_i}                                \tag{9.9a}\\[1ex]
+    && \text{subject to} \quad  {\sum_{i \in M} a_{ij} \, \pi_i}  &\geq c_j,   & \forall j \in N_{\ge 0},                     \tag{9.9b}\\[1ex]
+    && {\sum_{i \in M} a_{ij} \, \pi_i}  &= c_j,   & \forall j \in N_{\gtreqless 0},                     \tag{9.9c}\\[1ex]
+    && {\sum_{i \in M} a_{ij} \, \pi_i}  &\le c_j,   & \forall j \in N_{\le 0},                     \tag{9.9d}\\[1ex]
+    &&\pi_i                        &\ge  0, & \forall i \in M_{\le}, \tag{9.9e}\\[1ex]
+    &&\pi_i                        &\gtreqless  0, & \forall i \in M_{=}, \tag{9.9f}\\[1ex]
+    &&\pi_i                        &\le  0, & \forall i \in M_{\ge}. \tag{9.9g}
     \end{align*}
 
 <a id="box-26-ex-dual-15"></a>

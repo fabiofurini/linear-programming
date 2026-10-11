@@ -108,28 +108,28 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/cloudflare-analytics.js?v=bff73345a1
-  - javascripts/mathjax.js?v=bf833266bf
+  - javascripts/mathjax.js?v=b427963c07
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
 nav:
   - Home: index.md
-  - Linear functions, polyhedra and linear programming problems:
+  - LP problems:
       - lp-problems/index.md
       - "1. Linear functions": lp-problems/01-linear-functions.md
       - "2. Half-spaces and polyhedra": lp-problems/02-polyhedra.md
       - "3. Linear optimization problems": lp-problems/03-linear-optimization-problems.md
       - "4. Linear Programming problems": lp-problems/04-lp-problems.md
       - "5. Possible outcomes and equivalent formulations": lp-problems/05-outcomes-equivalences.md
-  - The simplex algorithm:
+  - Simplex:
       - simplex/index.md
       - "6. Simplex algorithm": simplex/06-simplex.md
       - "7. Optimality conditions and pivot rules": simplex/07-optimality-pivot.md
       - "8. Phase 0 of the simplex algorithm": simplex/08-phase-zero.md
-  - Duality and the dual simplex:
+  - Duality:
       - duality/index.md
       - "9. Duality theory": duality/09-duality.md
       - "10. Dual Simplex algorithm": duality/10-dual-simplex.md
-  - Matrix methods, sensitivity and geometry:
+  - Advanced methods:
       - advanced-methods/index.md
       - "11. Revised simplex algorithm": advanced-methods/11-revised-simplex.md
       - "12. Revised dual simplex algorithm": advanced-methods/12-revised-dual.md
@@ -156,7 +156,7 @@ nav:
       - "14. Sensitivity analysis": exercises/ex-14-sensitivity.md
       - "15. The geometry of Linear Programming": exercises/ex-15-geometry.md
       - "16. Linear Programming modeling techniques": exercises/ex-16-modelling.md
-  - Catalogue of LP problems:
+  - Catalogue:
       - catalogue/index.md
       - "LP problems with two variables – Type A": catalogue/2-variables-type-a.md
       - "LP problems with two variables – Type B": catalogue/2-variables-type-b.md
@@ -167,4 +167,4 @@ nav:
       - "LP problems with three variables – Type C": catalogue/3-variables-type-c.md
       - "LP problems with three variables – Type D": catalogue/3-variables-type-d.md
   - Downloads: downloads.md
-  - Full index: indice.md
+  - Index: indice.md
