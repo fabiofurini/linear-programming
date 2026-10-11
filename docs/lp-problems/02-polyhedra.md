@@ -236,3 +236,12 @@ title: "Half-spaces and polyhedra"
     Its three-dimensional representation corresponds to the hyperplane shown in the figure.
 
     ![Figure 4](../img/02-polyhedra/fig04.svg){ .fig .ovale loading=lazy style="width:47%" }
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+## Interactive lab { #interactive-lab }
+
+The ideas of the chapter, hands on: move the sliders and drag the points.
+All the graphs of the course are in the [interactive lab](../lab/index.md#cap-2).
+
+<div class="gi" data-grafico="poliedro"></div>

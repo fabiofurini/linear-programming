@@ -88,6 +88,8 @@ extra:
 
 extra_css:
   - stylesheets/extra.css?v=d60085bd58
+  - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraph.css
+  - stylesheets/interattivi.css?v=e225dd77f7
 
 markdown_extensions:
   - admonition
@@ -110,6 +112,13 @@ extra_javascript:
   - javascripts/cloudflare-analytics.js?v=bff73345a1
   - javascripts/mathjax.js?v=b427963c07
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
+  # grafici interattivi: JSXGraph, il motore, il catalogo dei problemi, poi le ricette (gi-*.js, le aggiunge genera_sito.py)
+  - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraphcore.js
+  - javascripts/interattivi.js?v=8096a75a17
+  - javascripts/catalogo_pl.js?v=16146245c5
+  - javascripts/gi-cap1-5.js?v=45fda7a885
+  - javascripts/gi-cap6-8.js?v=ecd6f0e348
+  - javascripts/gi-cap9-14.js?v=379a5b9c26
 
 nav:
   - Home: index.md
@@ -166,5 +175,7 @@ nav:
       - "LP problems with three variables – Type B": catalogue/3-variables-type-b.md
       - "LP problems with three variables – Type C": catalogue/3-variables-type-c.md
       - "LP problems with three variables – Type D": catalogue/3-variables-type-d.md
+  - Lab:
+      - lab/index.md
   - Downloads: downloads.md
   - Index: indice.md

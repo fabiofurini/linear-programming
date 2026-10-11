@@ -9,8 +9,8 @@ hide:
 
 ![Under construction: the website and the course material are still being written](img/under-construction.svg){ width="560" }
 
-**Website under construction.** The material is still being written: slides, interactive graphs and
-notebooks will follow later.
+**Website under construction.** The material is still being written: slides and notebooks will
+follow later; the interactive lab is already open and will grow.
 
 # Linear Programming
 
@@ -23,6 +23,7 @@ examples worked out step by step and exercises with solutions.
 
 [Start with the LP problems :material-arrow-right:](lp-problems/index.md){ .md-button .md-button--primary }
 [The exercises](exercises/index.md){ .md-button }
+[Try an interactive graph](lab/index.md){ .md-button }
 [:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
 </div>
@@ -119,6 +120,15 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     Exercises for every chapter, each with a worked solution that opens with a click.
 
     [:octicons-arrow-right-24: The exercises](exercises/index.md)
+
+-   :material-gesture-tap: **Interactive lab**
+
+    ---
+
+    Move the parameters with the sliders, drag the points and watch polyhedra, level lines,
+    optimal vertices and dual problems change before your eyes.
+
+    [:octicons-arrow-right-24: The graphs](lab/index.md)
 
 -   :material-download: **Lecture notes and exercise books in PDF**
 

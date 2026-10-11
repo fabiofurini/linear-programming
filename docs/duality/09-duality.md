@@ -1796,3 +1796,12 @@ title: "Duality theory"
 !!! chiave ""
 
     Since an equivalent LP problem in canonical maximization form can be obtained from an LP in generic maximization form, Weak Duality, Strong Duality, and the Complementary Slackness theorem hold for the generic case as well.
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+## Interactive lab { #interactive-lab }
+
+The ideas of the chapter, hands on: move the sliders and drag the points.
+All the graphs of the course are in the [interactive lab](../lab/index.md#cap-9).
+
+<div class="gi" data-grafico="dualita-debole"></div>

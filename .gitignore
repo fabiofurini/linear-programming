@@ -30,12 +30,10 @@ __pycache__/
 .DS_Store
 *conflicted copy*
 
-# per ora fuori dal sito: notebook e dati (numerazione dei capitoli da riallineare), laboratorio
+# per ora fuori dal sito: notebook e dati (numerazione dei capitoli da riallineare)
 data/
 notebooks/
 docs/notebooks.md
-docs/javascripts/catalogo_pl.js
-docs/stylesheets/interattivi.css
 
 # volumi generati (tex e PDF): fuori da git; online i PDF stanno in docs/pdf/
 volumes/

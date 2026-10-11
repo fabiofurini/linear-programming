@@ -664,3 +664,12 @@ title: "Possible outcomes and equivalent formulations"
     $$
 
 [^1]: or the Least Common Multiple of the denominators.
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+## Interactive lab { #interactive-lab }
+
+The ideas of the chapter, hands on: move the sliders and drag the points.
+All the graphs of the course are in the [interactive lab](../lab/index.md#cap-5).
+
+<div class="gi" data-grafico="esiti"></div>

@@ -497,3 +497,12 @@ title: "Sensitivity analysis"
     </table></div>
 
     In all the cases the previous optimal basis is used as a <strong>warm start</strong>: the two algorithms restart from it, and usually a small number of pivoting operations is enough to restore optimality.
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+## Interactive lab { #interactive-lab }
+
+The ideas of the chapter, hands on: move the sliders and drag the points.
+All the graphs of the course are in the [interactive lab](../lab/index.md#cap-14).
+
+<div class="gi" data-grafico="sensitivita"></div>

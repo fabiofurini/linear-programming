@@ -1812,3 +1812,12 @@ In the same dictionary also $\bar{c}_2 = 2 > 0$, so $x_2$ can be chosen as the p
 At the first iteration the pivot column $x_1$ was chosen among the two non-basic variables with a positive reduced cost. Choosing $x_2$ instead, the simplex algorithm reaches the same optimal solution after three pivoting operations, visiting the vertices $(0,4)$ and $\left(\frac{12}{5},\frac{24}{5}\right)$: the choice of the pivot column changes the path on the polyhedron and the number of iterations (see the exercise <em>Simplex algorithm with a different pivot column</em>, problem $P10$).
 
 [^1]: The row rank and the column rank of a matrix are equal
+
+<!-- laboratorio-interattivo: sezione generata da interattivi.py -->
+
+## Interactive lab { #interactive-lab }
+
+The ideas of the chapter, hands on: move the sliders and drag the points.
+All the graphs of the course are in the [interactive lab](../lab/index.md#cap-6).
+
+<div class="gi" data-grafico="simplesso-passi"></div>
