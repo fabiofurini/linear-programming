@@ -60,6 +60,7 @@ Il corso sarà disponibile anche in italiano:
 - [Mathematical Analysis 1](https://fabiofurini.github.io/mathematical-analysis-1/)
 - [Linear Algebra](https://fabiofurini.github.io/linear-algebra/)
 - [Convex Optimization](https://fabiofurini.github.io/convex-optimization/)
+- [Algorithms](https://fabiofurini.github.io/algorithms/)
 
 ---
 
