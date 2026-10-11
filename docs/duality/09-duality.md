@@ -1802,6 +1802,6 @@ title: "Duality theory"
 ## Interactive lab { #interactive-lab }
 
 The ideas of the chapter, hands on: move the sliders and drag the points.
-All the graphs of the course are in the [interactive lab](../lab/index.md#cap-9).
+Each app also opens full page in the [interactive lab](../lab/index.md): [Weak and strong duality](../lab/weak-duality.md).
 
 <div class="gi" data-grafico="dualita-debole"></div>

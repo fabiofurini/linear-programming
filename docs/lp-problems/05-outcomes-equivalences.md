@@ -670,6 +670,6 @@ title: "Possible outcomes and equivalent formulations"
 ## Interactive lab { #interactive-lab }
 
 The ideas of the chapter, hands on: move the sliders and drag the points.
-All the graphs of the course are in the [interactive lab](../lab/index.md#cap-5).
+Each app also opens full page in the [interactive lab](../lab/index.md): [The outcomes of an LP problem](../lab/outcomes.md).
 
 <div class="gi" data-grafico="esiti"></div>

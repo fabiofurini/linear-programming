@@ -1,73 +1,85 @@
 # Interactive lab
 
-Here you can get your hands on linear programming. Each graph has **sliders**: every
-parameter has its own color, the same in the slider and in the formula, so you
-immediately see *what does what*. In many graphs you can also **drag the points**.
-The ▶ button next to a parameter makes it move by itself. The problems come from the
-[catalogue](../catalogue/index.md) P0–P86, with the numbers as exact fractions. The colors
-are those of the lecture notes: the feasible region in red, the optima in blue.
+Here you can get your hands on linear programming. Pick an app: it opens full page.
+Drag the points and move the sliders; the ▶ button next to a parameter makes it move by itself.
+The problems come from the [catalogue](../catalogue/index.md), with the numbers as exact fractions.
 
-!!! tip "How to use it"
-    Drag the sliders and the points, or click ▶ for the animation. On the graph you
-    can pan by dragging with two fingers (or with the mouse) and zoom with
-    Shift + mouse wheel. Each graph also appears at the end of the chapter of the
-    notes it refers to.
+## Linear functions, polyhedra and linear programming problems
 
 <div class="grid cards" markdown>
 
--   :material-vector-triangle: **[Linear functions, polyhedra and linear programming problems](#parte-1)** — level lines and gradient of a linear function · half-spaces, polyhedra and vertices · the graphical method · unique optimum, multiple optima, unbounded, infeasible
--   :material-stairs-up: **[The simplex algorithm](#parte-2)** — the simplex method step by step
--   :material-swap-horizontal: **[Duality and the dual simplex](#parte-3)** — weak and strong duality
--   :material-cube-outline: **[Matrix methods, sensitivity and geometry](#parte-4)** — sensitivity analysis
+-   :material-chart-line-variant: **Level lines**
+
+    ---
+
+    Move the cost vector and watch how the level lines and the gradient of a linear function change.
+
+    [Open the app →](level-lines.md)
+
+-   :material-vector-polygon: **Half-spaces and polyhedra**
+
+    ---
+
+    Move the constraints: the feasible region is the intersection of half-planes, and its vertices follow.
+
+    [Open the app →](polyhedra.md)
+
+-   :material-vector-triangle: **The graphical method**
+
+    ---
+
+    Slide the level line toward the gradient until the last point that still touches the feasible region.
+
+    [Open the app →](graphical-method.md)
+
+-   :material-signal-distance-variant: **The outcomes of an LP problem**
+
+    ---
+
+    Unique optimum, multiple optima, unbounded, infeasible: change the data and recognize each case.
+
+    [Open the app →](outcomes.md)
 
 </div>
 
-## Linear functions, polyhedra and linear programming problems { #parte-1 }
+## The simplex algorithm
 
-### 1. Linear functions { #cap-1 }
+<div class="grid cards" markdown>
 
-<div class="gi" data-grafico="livello-lineare"></div>
+-   :material-stairs-up: **The simplex method step by step**
 
-The chapter: [Linear functions](../lp-problems/01-linear-functions.md).
+    ---
 
-### 2. Half-spaces and polyhedra { #cap-2 }
+    Follow the simplex method from vertex to adjacent vertex, with the pivot choice at every step.
 
-<div class="gi" data-grafico="poliedro"></div>
+    [Open the app →](simplex-steps.md)
 
-The chapter: [Half-spaces and polyhedra](../lp-problems/02-polyhedra.md).
+</div>
 
-### 4. Linear Programming problems { #cap-4 }
+## Duality and the dual simplex
 
-<div class="gi" data-grafico="metodo-grafico"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Linear Programming problems](../lp-problems/04-lp-problems.md).
+-   :material-swap-horizontal: **Weak and strong duality**
 
-### 5. Possible outcomes and equivalent formulations { #cap-5 }
+    ---
 
-<div class="gi" data-grafico="esiti"></div>
+    Move a feasible primal and a feasible dual solution and watch the two objective values approach each other.
 
-The chapter: [Possible outcomes and equivalent formulations](../lp-problems/05-outcomes-equivalences.md).
+    [Open the app →](weak-duality.md)
 
-## The simplex algorithm { #parte-2 }
+</div>
 
-### 6. Simplex algorithm { #cap-6 }
+## Matrix methods, sensitivity and geometry
 
-<div class="gi" data-grafico="simplesso-passi"></div>
+<div class="grid cards" markdown>
 
-The chapter: [Simplex algorithm](../simplex/06-simplex.md).
+-   :material-tune-vertical: **Sensitivity analysis**
 
-## Duality and the dual simplex { #parte-3 }
+    ---
 
-### 9. Duality theory { #cap-9 }
+    Vary a coefficient and see how far the optimal basis stays optimal, and when it changes.
 
-<div class="gi" data-grafico="dualita-debole"></div>
+    [Open the app →](sensitivity.md)
 
-The chapter: [Duality theory](../duality/09-duality.md).
-
-## Matrix methods, sensitivity and geometry { #parte-4 }
-
-### 14. Sensitivity analysis { #cap-14 }
-
-<div class="gi" data-grafico="sensitivita"></div>
-
-The chapter: [Sensitivity analysis](../advanced-methods/14-sensitivity.md).
+</div>

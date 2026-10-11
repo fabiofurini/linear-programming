@@ -732,6 +732,6 @@ title: "Linear Programming problems"
 ## Interactive lab { #interactive-lab }
 
 The ideas of the chapter, hands on: move the sliders and drag the points.
-All the graphs of the course are in the [interactive lab](../lab/index.md#cap-4).
+Each app also opens full page in the [interactive lab](../lab/index.md): [The graphical method](../lab/graphical-method.md).
 
 <div class="gi" data-grafico="metodo-grafico"></div>

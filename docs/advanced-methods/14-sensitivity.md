@@ -503,6 +503,6 @@ title: "Sensitivity analysis"
 ## Interactive lab { #interactive-lab }
 
 The ideas of the chapter, hands on: move the sliders and drag the points.
-All the graphs of the course are in the [interactive lab](../lab/index.md#cap-14).
+Each app also opens full page in the [interactive lab](../lab/index.md): [Sensitivity analysis](../lab/sensitivity.md).
 
 <div class="gi" data-grafico="sensitivita"></div>
