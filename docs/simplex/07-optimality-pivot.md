@@ -6,7 +6,7 @@ title: "Optimality conditions and pivot rules"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises](../exercises/ex-07-optimality-pivot.md)
+**Part 2 · The simplex algorithm · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Optimality conditions and pivot rules](../exercises/ex-07-optimality-pivot.md)
 
 </div>
 
@@ -758,3 +758,7 @@ title: "Optimality conditions and pivot rules"
     In particular,  $x_r = 0$. But in $D$,  $x_r$ is basic. Hence $\bar{b}_r=0$ and, since $\bar{a}_{rs} > 0$, we have $\frac{\bar{b}_r}{\bar{a}_{rs}} = 0 = t_m$. So $x_r$ was a candidate to be the pivot row in $D$, and since $r < t$, according to Bland's rule it should have been chosen instead of $x_t$.
 
     This is the contradiction that proves that a cycling sequence of dictionaries cannot exist using Bland's rule. <span class="qed">□</span>
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Optimality conditions and pivot rules](../exercises/ex-07-optimality-pivot.md)

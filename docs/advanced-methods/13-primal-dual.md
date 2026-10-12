@@ -6,7 +6,7 @@ title: "The primal-dual method"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 13** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises](../exercises/ex-13-primal-dual.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 13** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: The primal-dual method](../exercises/ex-13-primal-dual.md)
 
 </div>
 
@@ -429,3 +429,7 @@ title: "The primal-dual method"
     The difference between the dual simplex algorithm and the primal-dual method is that the former keeps a dual feasible <strong>basis</strong>, while the latter keeps a dual feasible <strong>solution</strong>, which need not be basic. For this reason the primal-dual method can start from any dual feasible solution, even one suggested by the structure of the problem.
 
 - The practical interest of the primal-dual method is that the restricted primal problem [(13.3)](#eq-PD_RP) is often much easier than the original LP problem: it has fewer variables, and for several <strong>combinatorial optimization</strong> problems it turns out to be a problem with a known combinatorial algorithm, such as a shortest path or a maximum flow problem. In those cases the primal-dual method becomes a purely combinatorial algorithm, and it is the origin of many classical algorithms and of several approximation algorithms.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: The primal-dual method](../exercises/ex-13-primal-dual.md)

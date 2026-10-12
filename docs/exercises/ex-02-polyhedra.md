@@ -6,7 +6,7 @@ title: "Exercises · Half-spaces and polyhedra"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 2** · each solution opens with a click · [:material-book-open-variant: Chapter 2](../lp-problems/02-polyhedra.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
+**Exercises · Chapter 2** · each solution opens with a click · [:material-book-open-variant: Chapter 2: Half-spaces and polyhedra](../lp-problems/02-polyhedra.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
 
 </div>
 

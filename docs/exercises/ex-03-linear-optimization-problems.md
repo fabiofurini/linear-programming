@@ -6,7 +6,7 @@ title: "Exercises · Linear optimization problems"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 3** · each solution opens with a click · [:material-book-open-variant: Chapter 3](../lp-problems/03-linear-optimization-problems.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
+**Exercises · Chapter 3** · each solution opens with a click · [:material-book-open-variant: Chapter 3: Linear optimization problems](../lp-problems/03-linear-optimization-problems.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
 
 </div>
 

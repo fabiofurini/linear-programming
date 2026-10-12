@@ -6,7 +6,7 @@ title: "Exercises · Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 6** · each solution opens with a click · [:material-book-open-variant: Chapter 6](../simplex/06-simplex.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
+**Exercises · Chapter 6** · each solution opens with a click · [:material-book-open-variant: Chapter 6: Simplex algorithm](../simplex/06-simplex.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
 
 </div>
 

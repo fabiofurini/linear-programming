@@ -6,7 +6,7 @@ title: "The geometry of Linear Programming"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 15** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises](../exercises/ex-15-geometry.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 15** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: The geometry of Linear Programming](../exercises/ex-15-geometry.md)
 
 </div>
 
@@ -441,3 +441,7 @@ title: "The geometry of Linear Programming"
     </table></div>
 
 - The number of vertices of a polyhedron can be <strong>exponential</strong> in the number of its constraints and variables: for an LP problem in standard maximization form it is bounded by $\binom{n+m}{m}$. This is why the simplex algorithm, which visits one vertex at a time, cannot be shown to be efficient by simply counting the vertices, and why its behaviour in practice is much better than its worst case.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: The geometry of Linear Programming](../exercises/ex-15-geometry.md)

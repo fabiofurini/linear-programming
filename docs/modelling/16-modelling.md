@@ -6,7 +6,7 @@ title: "Linear Programming modeling techniques"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Modelling · Chapter 16** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-modelling.pdf) · [:material-pencil: Exercises](../exercises/ex-16-modelling.md)
+**Part 5 · Modelling · Chapter 16** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-modelling.pdf) · [:material-pencil: Exercises: Linear Programming modeling techniques](../exercises/ex-16-modelling.md)
 
 </div>
 
@@ -359,3 +359,7 @@ title: "Linear Programming modeling techniques"
 - A frequent mistake is to write a fixed cost as a non-linear term of the objective function, or to impose a minimum positive quantity with the constraint $x_j \ge q$: the latter forbids the solution $x_j = 0$, which instead has to remain feasible.
 
 - Whenever the requirements of a problem are of the kind listed above, the LP model obtained by ignoring them is still useful: it is a <strong>relaxation</strong> of the correct model, and then its optimal value is an upper bound on the optimal value of the correct model, for a maximization problem, and a lower bound for a minimization problem.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Linear Programming modeling techniques](../exercises/ex-16-modelling.md)

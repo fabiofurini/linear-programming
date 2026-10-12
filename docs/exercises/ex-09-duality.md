@@ -6,7 +6,7 @@ title: "Exercises · Duality theory"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 9** · each solution opens with a click · [:material-book-open-variant: Chapter 9](../duality/09-duality.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-duality.pdf)
+**Exercises · Chapter 9** · each solution opens with a click · [:material-book-open-variant: Chapter 9: Duality theory](../duality/09-duality.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-duality.pdf)
 
 </div>
 

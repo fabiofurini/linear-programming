@@ -6,7 +6,7 @@ title: "Exercises · Possible outcomes and equivalent formulations"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 5** · each solution opens with a click · [:material-book-open-variant: Chapter 5](../lp-problems/05-outcomes-equivalences.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
+**Exercises · Chapter 5** · each solution opens with a click · [:material-book-open-variant: Chapter 5: Possible outcomes and equivalent formulations](../lp-problems/05-outcomes-equivalences.md) · [:material-file-pdf-box: Exercises, volume 1 (PDF)](../pdf/exercises-1-linear-programming-problems.pdf)
 
 </div>
 

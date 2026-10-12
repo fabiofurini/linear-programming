@@ -6,7 +6,7 @@ title: "Sensitivity analysis"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 14** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises](../exercises/ex-14-sensitivity.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 14** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: Sensitivity analysis](../exercises/ex-14-sensitivity.md) · [:material-gesture-tap: App: Sensitivity analysis](../lab/sensitivity.md)
 
 </div>
 
@@ -497,6 +497,10 @@ title: "Sensitivity analysis"
     </table></div>
 
     In all the cases the previous optimal basis is used as a <strong>warm start</strong>: the two algorithms restart from it, and usually a small number of pivoting operations is enough to restore optimality.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Sensitivity analysis](../exercises/ex-14-sensitivity.md)
 
 <!-- laboratorio-interattivo: sezione generata da interattivi.py -->
 

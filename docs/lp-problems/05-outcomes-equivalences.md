@@ -6,7 +6,7 @@ title: "Possible outcomes and equivalent formulations"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises](../exercises/ex-05-outcomes-equivalences.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Possible outcomes and equivalent formulations](../exercises/ex-05-outcomes-equivalences.md) · [:material-gesture-tap: App: The outcomes of an LP problem](../lab/outcomes.md)
 
 </div>
 
@@ -662,6 +662,10 @@ title: "Possible outcomes and equivalent formulations"
     & {x_1,} &  & {x_2,} &  & {x_3,} &  & {x_4,} &  & {x_5} & { \ge} & { 0 }
     \end{array}
     $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Possible outcomes and equivalent formulations](../exercises/ex-05-outcomes-equivalences.md)
 
 [^1]: or the Least Common Multiple of the denominators.
 

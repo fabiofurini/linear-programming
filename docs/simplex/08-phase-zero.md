@@ -6,7 +6,7 @@ title: "Phase 0 of the simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises](../exercises/ex-08-phase-zero.md)
+**Part 2 · The simplex algorithm · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Phase 0 of the simplex algorithm](../exercises/ex-08-phase-zero.md)
 
 </div>
 
@@ -557,3 +557,7 @@ title: "Phase 0 of the simplex algorithm"
     $$
 
     The simplex algorithm explores a small subset of them, moving from one basic feasible solution to another one whose objective value is not smaller.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Phase 0 of the simplex algorithm](../exercises/ex-08-phase-zero.md)

@@ -6,7 +6,7 @@ title: "Exercises · Dual Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 10** · each solution opens with a click · [:material-book-open-variant: Chapter 10](../duality/10-dual-simplex.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-duality.pdf)
+**Exercises · Chapter 10** · each solution opens with a click · [:material-book-open-variant: Chapter 10: Dual Simplex algorithm](../duality/10-dual-simplex.md) · [:material-file-pdf-box: Exercises, volume 3 (PDF)](../pdf/exercises-3-duality.pdf)
 
 </div>
 

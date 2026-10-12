@@ -6,7 +6,7 @@ title: "Dual Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Duality and the dual simplex · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises](../exercises/ex-10-dual-simplex.md)
+**Part 3 · Duality and the dual simplex · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises: Dual Simplex algorithm](../exercises/ex-10-dual-simplex.md)
 
 </div>
 
@@ -1772,3 +1772,7 @@ title: "Dual Simplex algorithm"
             \tilde x_4=0~~
             \text{  of value   } -8
             $$
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Dual Simplex algorithm](../exercises/ex-10-dual-simplex.md)

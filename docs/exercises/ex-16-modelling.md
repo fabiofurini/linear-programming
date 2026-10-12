@@ -6,7 +6,7 @@ title: "Exercises · Linear Programming modeling techniques"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 16** · each solution opens with a click · [:material-book-open-variant: Chapter 16](../modelling/16-modelling.md) · [:material-file-pdf-box: Exercises, volume 5 (PDF)](../pdf/exercises-5-modelling.pdf)
+**Exercises · Chapter 16** · each solution opens with a click · [:material-book-open-variant: Chapter 16: Linear Programming modeling techniques](../modelling/16-modelling.md) · [:material-file-pdf-box: Exercises, volume 5 (PDF)](../pdf/exercises-5-modelling.pdf)
 
 </div>
 

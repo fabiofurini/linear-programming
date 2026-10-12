@@ -6,7 +6,7 @@ title: "Linear functions"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 1** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-gesture-tap: App: Level lines](../lab/level-lines.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Linear Programming problems"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises](../exercises/ex-04-lp-problems.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 4** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Linear Programming problems](../exercises/ex-04-lp-problems.md) · [:material-gesture-tap: App: The graphical method](../lab/graphical-method.md)
 
 </div>
 
@@ -726,6 +726,10 @@ title: "Linear Programming problems"
     i.e., on the segment joining the points $\begin{pmatrix} 2\\ 0\\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0\\ 0\\ 4 \end{pmatrix}$. Taking for instance the optimal solution $\tilde{\boldsymbol x}(\, LP \,) = \begin{pmatrix} 2\\ 0\\ 0 \end{pmatrix}$ (where $\tilde{x}_1=2$, $\tilde{x}_2=0$ and $\tilde{x}_3=0$), the optimal value is: $z(\, LP \,) = 2\,\tilde{x}_1 + 2\,\tilde{x}_2 + \tilde{x}_3 = 2 \cdot 2 + 2 \cdot 0 + 0 = 4.$
 
     ![Figure 9](../img/04-lp-problems/fig09.svg){ .fig .cornice loading=lazy style="width:59%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Linear Programming problems](../exercises/ex-04-lp-problems.md)
 
 <!-- laboratorio-interattivo: sezione generata da interattivi.py -->
 

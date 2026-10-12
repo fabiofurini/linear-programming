@@ -6,7 +6,7 @@ title: "Exercises · The primal-dual method"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 13** · each solution opens with a click · [:material-book-open-variant: Chapter 13](../advanced-methods/13-primal-dual.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
+**Exercises · Chapter 13** · each solution opens with a click · [:material-book-open-variant: Chapter 13: The primal-dual method](../advanced-methods/13-primal-dual.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Duality theory"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Duality and the dual simplex · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises](../exercises/ex-09-duality.md)
+**Part 3 · Duality and the dual simplex · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises: Duality theory](../exercises/ex-09-duality.md) · [:material-gesture-tap: App: Weak and strong duality](../lab/weak-duality.md)
 
 </div>
 
@@ -1796,6 +1796,10 @@ title: "Duality theory"
 !!! chiave ""
 
     Since an equivalent LP problem in canonical maximization form can be obtained from an LP in generic maximization form, Weak Duality, Strong Duality, and the Complementary Slackness theorem hold for the generic case as well.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Duality theory](../exercises/ex-09-duality.md)
 
 <!-- laboratorio-interattivo: sezione generata da interattivi.py -->
 

@@ -6,7 +6,7 @@ title: "Revised dual simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 12** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises](../exercises/ex-12-revised-dual.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 12** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: Revised dual simplex algorithm](../exercises/ex-12-revised-dual.md)
 
 </div>
 
@@ -430,3 +430,7 @@ title: "Revised dual simplex algorithm"
         $$
 
         that is, $\tilde{\boldsymbol \pi}(\, D(LP) \,) = \left(\frac{7}{6}~~\frac{1}{6}~~0\right)'$, whose objective value is ${\boldsymbol b}' \tilde{\boldsymbol \pi} = -8 = z(\, LP \,)$, in accordance with the Strong Duality theorem.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Revised dual simplex algorithm](../exercises/ex-12-revised-dual.md)

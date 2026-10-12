@@ -6,7 +6,7 @@ title: "Exercises · Revised dual simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 12** · each solution opens with a click · [:material-book-open-variant: Chapter 12](../advanced-methods/12-revised-dual.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
+**Exercises · Chapter 12** · each solution opens with a click · [:material-book-open-variant: Chapter 12: Revised dual simplex algorithm](../advanced-methods/12-revised-dual.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
 
 </div>
 

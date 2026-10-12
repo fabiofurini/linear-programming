@@ -6,7 +6,7 @@ title: "Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises](../exercises/ex-06-simplex.md)
+**Part 2 · The simplex algorithm · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Simplex algorithm](../exercises/ex-06-simplex.md) · [:material-gesture-tap: App: The simplex method step by step](../lab/simplex-steps.md)
 
 </div>
 
@@ -1810,6 +1810,10 @@ In the same dictionary also $\bar{c}_2 = 2 > 0$, so $x_2$ can be chosen as the p
     In dashed blue,  the contour lines $5\,x_1 + 2\,x_2 = 0$, $5\,x_1 + 2\,x_2 = \frac{40}{3}$ and $5\,x_1 + 2\,x_2 = 32$ of the objective function associated to the values taken in the three vertices.
 
 At the first iteration the pivot column $x_1$ was chosen among the two non-basic variables with a positive reduced cost. Choosing $x_2$ instead, the simplex algorithm reaches the same optimal solution after three pivoting operations, visiting the vertices $(0,4)$ and $\left(\frac{12}{5},\frac{24}{5}\right)$: the choice of the pivot column changes the path on the polyhedron and the number of iterations (see the exercise <em>Simplex algorithm with a different pivot column</em>, problem $P10$).
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Simplex algorithm](../exercises/ex-06-simplex.md)
 
 [^1]: The row rank and the column rank of a matrix are equal
 

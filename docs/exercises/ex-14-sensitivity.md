@@ -6,7 +6,7 @@ title: "Exercises · Sensitivity analysis"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 14** · each solution opens with a click · [:material-book-open-variant: Chapter 14](../advanced-methods/14-sensitivity.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
+**Exercises · Chapter 14** · each solution opens with a click · [:material-book-open-variant: Chapter 14: Sensitivity analysis](../advanced-methods/14-sensitivity.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
 
 </div>
 

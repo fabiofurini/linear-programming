@@ -6,7 +6,7 @@ title: "Exercises · Revised simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 11** · each solution opens with a click · [:material-book-open-variant: Chapter 11](../advanced-methods/11-revised-simplex.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
+**Exercises · Chapter 11** · each solution opens with a click · [:material-book-open-variant: Chapter 11: Revised simplex algorithm](../advanced-methods/11-revised-simplex.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
 
 </div>
 

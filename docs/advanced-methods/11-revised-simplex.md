@@ -6,7 +6,7 @@ title: "Revised simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises](../exercises/ex-11-revised-simplex.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 11** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: Revised simplex algorithm](../exercises/ex-11-revised-simplex.md)
 
 </div>
 
@@ -662,3 +662,7 @@ title: "Revised simplex algorithm"
     $$
 
     is  an optimal  solution of the  LP problem and ${\bar{z}} = 32$ is the optimal value.
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Revised simplex algorithm](../exercises/ex-11-revised-simplex.md)

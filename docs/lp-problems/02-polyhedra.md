@@ -6,7 +6,7 @@ title: "Half-spaces and polyhedra"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises](../exercises/ex-02-polyhedra.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Half-spaces and polyhedra](../exercises/ex-02-polyhedra.md) · [:material-gesture-tap: App: Half-spaces and polyhedra](../lab/polyhedra.md)
 
 </div>
 
@@ -236,6 +236,10 @@ title: "Half-spaces and polyhedra"
     Its three-dimensional representation corresponds to the hyperplane shown in the figure.
 
     ![Figure 4](../img/02-polyhedra/fig04.svg){ .fig .ovale loading=lazy style="width:47%" }
+
+---
+
+**Exercises on this chapter:** [:material-pencil: Half-spaces and polyhedra](../exercises/ex-02-polyhedra.md)
 
 <!-- laboratorio-interattivo: sezione generata da interattivi.py -->
 

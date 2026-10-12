@@ -6,7 +6,7 @@ title: "Exercises · Phase 0 of the simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 8** · each solution opens with a click · [:material-book-open-variant: Chapter 8](../simplex/08-phase-zero.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
+**Exercises · Chapter 8** · each solution opens with a click · [:material-book-open-variant: Chapter 8: Phase 0 of the simplex algorithm](../simplex/08-phase-zero.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
 
 </div>
 

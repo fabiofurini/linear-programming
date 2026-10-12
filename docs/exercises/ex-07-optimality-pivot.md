@@ -6,7 +6,7 @@ title: "Exercises · Optimality conditions and pivot rules"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 7** · each solution opens with a click · [:material-book-open-variant: Chapter 7](../simplex/07-optimality-pivot.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
+**Exercises · Chapter 7** · each solution opens with a click · [:material-book-open-variant: Chapter 7: Optimality conditions and pivot rules](../simplex/07-optimality-pivot.md) · [:material-file-pdf-box: Exercises, volume 2 (PDF)](../pdf/exercises-2-simplex.pdf)
 
 </div>
 

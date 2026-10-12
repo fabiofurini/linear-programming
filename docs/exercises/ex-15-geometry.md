@@ -6,7 +6,7 @@ title: "Exercises · The geometry of Linear Programming"
 
 <div class="info-capitolo" markdown>
 
-**Exercises · Chapter 15** · each solution opens with a click · [:material-book-open-variant: Chapter 15](../advanced-methods/15-geometry.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
+**Exercises · Chapter 15** · each solution opens with a click · [:material-book-open-variant: Chapter 15: The geometry of Linear Programming](../advanced-methods/15-geometry.md) · [:material-file-pdf-box: Exercises, volume 4 (PDF)](../pdf/exercises-4-advanced-methods.pdf)
 
 </div>
 
