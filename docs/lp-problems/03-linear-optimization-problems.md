@@ -6,7 +6,7 @@ title: "Linear optimization problems"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Linear optimization problems](../exercises/ex-03-linear-optimization-problems.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 3** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-presentation: Slides](../pdf/slides-03-linear-optimization-problems.pdf) · [:material-pencil: Exercises: Linear optimization problems](../exercises/ex-03-linear-optimization-problems.md)
 
 </div>
 

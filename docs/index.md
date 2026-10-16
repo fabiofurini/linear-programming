@@ -7,11 +7,6 @@ hide:
 
 <div class="hero" markdown>
 
-![Under construction: the website and the course material are still being written](img/under-construction.svg){ width="560" }
-
-**Website under construction.** The material is still being written: slides and notebooks will
-follow later; the interactive lab is already open and will grow.
-
 # Linear Programming
 
 Teaching material conceived and developed by **[Fabio Furini](https://fabiofurini.github.io/)**, associate
@@ -173,4 +168,6 @@ By the same author:
 Teaching material by **[Fabio Furini](https://fabiofurini.github.io/)** —
 [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
-*Questo sito è disponibile anche in [italiano](https://fabiofurini.github.io/programmazione-lineare/).*
+*This website is also available in [Italian](https://fabiofurini.github.io/programmazione-lineare/).*
+
+*The lecture slides, one PDF per chapter, are on the [Downloads](downloads.md) page.*

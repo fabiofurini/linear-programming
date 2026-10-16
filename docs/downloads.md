@@ -105,3 +105,12 @@ The lecture notes and the exercise books in PDF, updated at every publication of
     [:octicons-download-24: exercises-5-modelling.pdf](pdf/exercises-5-modelling.pdf)
 
 </div>
+
+## Slides
+
+### Linear functions, polyhedra and linear programming problems
+
+- :material-presentation: [Chapter 1 · Linear functions](pdf/slides-01-linear-functions.pdf)
+- :material-presentation: [Chapter 2 · Half-spaces and polyhedra](pdf/slides-02-polyhedra.pdf)
+- :material-presentation: [Chapter 3 · Linear optimization problems](pdf/slides-03-linear-optimization-problems.pdf)
+- :material-presentation: [Chapter 4 · Linear Programming problems](pdf/slides-04-lp-problems.pdf)

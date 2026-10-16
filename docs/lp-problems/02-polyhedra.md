@@ -6,7 +6,7 @@ title: "Half-spaces and polyhedra"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Half-spaces and polyhedra](../exercises/ex-02-polyhedra.md) · [:material-gesture-tap: App: Half-spaces and polyhedra](../lab/polyhedra.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 2** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-presentation: Slides](../pdf/slides-02-polyhedra.pdf) · [:material-pencil: Exercises: Half-spaces and polyhedra](../exercises/ex-02-polyhedra.md) · [:material-gesture-tap: App: Half-spaces and polyhedra](../lab/polyhedra.md)
 
 </div>
 
@@ -37,9 +37,9 @@ title: "Half-spaces and polyhedra"
     \end{pmatrix}}_{{\boldsymbol x}} \in \R^n:~~~  \underbrace{\sum_{j=1}^n a_j \; x_j \le b}_{ {\boldsymbol a} \: {\boldsymbol x} \le b} ~~\right\}
     $$
 
-    is called an <strong>half-space</strong>.
+    is called a <strong>half-space</strong>.
 
-- Given an half-space,  the set
+- Given a half-space,  the set
 
     $$
     \left\{~~ \underbrace{\begin{pmatrix}
@@ -78,7 +78,7 @@ title: "Half-spaces and polyhedra"
     \begin{pmatrix} x_1 \\ x_2 \end{pmatrix} \in \R^2 :~~ 50x_1 + 31 \; x_2 \le 250 ~~\right\} \text{   where   }
     {\boldsymbol a}=
     \begin{pmatrix}
-    -3 &  2 \\
+    50 &  31 \\
     \end{pmatrix}
     ~~\text{and}~~
     b=250
@@ -100,7 +100,7 @@ title: "Half-spaces and polyhedra"
     a_{11} & a_{12} & \dots & a_{1n}\\
     a_{21} & a_{22} & \dots & a_{2n}\\
     \vdots  & \vdots  & \ddots & \vdots \\
-    a_{m1} & a_{n2} & \dots & a_{mn}\\
+    a_{m1} & a_{m2} & \dots & a_{mn}\\
     \end{pmatrix}}_{{\boldsymbol A}} \in \R^{m \times n}
     $$
 
@@ -202,7 +202,7 @@ title: "Half-spaces and polyhedra"
     \left\{ {\boldsymbol x} \in \R^n:~~  {\boldsymbol a} \; {\boldsymbol x} \le b \right\}~~~~\text{and}~~~~~ \left\{ {\boldsymbol x} \in \R^n:~~  {\boldsymbol a} \; {\boldsymbol x} \ge  b \right\}
     $$
 
-    it contains, <em>de facto</em>, the following  hyperplanes:
+    it contains, <em>de facto</em>, the following hyperplane:
 
     $$
     \left\{ {\boldsymbol x} \in \R^n:~~  {\boldsymbol a} \; {\boldsymbol x} =  b \right\}
