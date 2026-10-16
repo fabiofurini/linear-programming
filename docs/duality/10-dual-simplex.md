@@ -6,7 +6,7 @@ title: "Dual Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Duality and the dual simplex · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises: Dual Simplex algorithm](../exercises/ex-10-dual-simplex.md)
+**Part 3 · Duality and the dual simplex · Chapter 10** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-presentation: Slides](../pdf/slides-10-dual-simplex.pdf) · [:material-pencil: Exercises: Dual Simplex algorithm](../exercises/ex-10-dual-simplex.md)
 
 </div>
 

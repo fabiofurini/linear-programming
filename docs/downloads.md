@@ -122,6 +122,11 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 - :material-presentation: [Chapter 7 · Optimality conditions and pivot rules](pdf/slides-07-optimality-pivot.pdf)
 - :material-presentation: [Chapter 8 · Phase 0 of the simplex algorithm](pdf/slides-08-phase-zero.pdf)
 
+### Duality and the dual simplex
+
+- :material-presentation: [Chapter 9 · Duality theory](pdf/slides-09-duality.pdf)
+- :material-presentation: [Chapter 10 · Dual Simplex algorithm](pdf/slides-10-dual-simplex.pdf)
+
 ### Matrix methods, sensitivity and geometry
 
 - :material-presentation: [Chapter 11 · Revised simplex algorithm](pdf/slides-11-revised-simplex.pdf)

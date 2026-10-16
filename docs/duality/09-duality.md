@@ -6,7 +6,7 @@ title: "Duality theory"
 
 <div class="info-capitolo" markdown>
 
-**Part 3 · Duality and the dual simplex · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-pencil: Exercises: Duality theory](../exercises/ex-09-duality.md) · [:material-gesture-tap: App: Weak and strong duality](../lab/weak-duality.md)
+**Part 3 · Duality and the dual simplex · Chapter 9** · [:material-file-pdf-box: Lecture notes, volume 3 (PDF)](../pdf/lecture-notes-3-duality.pdf) · [:material-presentation: Slides](../pdf/slides-09-duality.pdf) · [:material-pencil: Exercises: Duality theory](../exercises/ex-09-duality.md) · [:material-gesture-tap: App: Weak and strong duality](../lab/weak-duality.md)
 
 </div>
 
@@ -1415,7 +1415,7 @@ title: "Duality theory"
 
     Assume first that $(\bar x_1,\bar x_2,\dots,\bar x_n)$ is an optimal solution of problem [(9.1)](#eq-PRIMAL). 
 
-    By Strong Duality, there exists an optimal solution $(\bar \pi_1,\bar \pi_2,\dots,\bar \pi_m)$ of the dual problem [(9.2)](#eq-DUAL). Since $(\bar \pi_1,\bar \pi_2,\dots,\bar \pi_m)$ is feasible for the dual problem, it satisfies $\eqref{ZZ3}$ and $\eqref{ZZ4}$.Moreover, since the primal and dual solutions are both optimal, by Complementary Slackness they satisfy $\eqref{ZZ1}$ and $\eqref{ZZ2}$. 
+    By Strong Duality, there exists an optimal solution $(\bar \pi_1,\bar \pi_2,\dots,\bar \pi_m)$ of the dual problem [(9.2)](#eq-DUAL). Since $(\bar \pi_1,\bar \pi_2,\dots,\bar \pi_m)$ is feasible for the dual problem, it satisfies $\eqref{ZZ3}$ and $\eqref{ZZ4}$. Moreover, since the primal and dual solutions are both optimal, by Complementary Slackness they satisfy $\eqref{ZZ1}$ and $\eqref{ZZ2}$. 
 
     Hence, there exists $(\bar \pi_1,\bar \pi_2,\dots,\bar \pi_m)$ satisfying $\eqref{ZZ1}$–$\eqref{ZZ4}$.
 
