@@ -6,7 +6,7 @@ title: "Linear Programming modeling techniques"
 
 <div class="info-capitolo" markdown>
 
-**Part 5 · Modelling · Chapter 16** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-modelling.pdf) · [:material-pencil: Exercises: Linear Programming modeling techniques](../exercises/ex-16-modelling.md)
+**Part 5 · Modelling · Chapter 16** · [:material-file-pdf-box: Lecture notes, volume 5 (PDF)](../pdf/lecture-notes-5-modelling.pdf) · [:material-presentation: Slides](../pdf/slides-16-modelling.pdf) · [:material-pencil: Exercises: Linear Programming modeling techniques](../exercises/ex-16-modelling.md)
 
 </div>
 

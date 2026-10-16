@@ -114,3 +114,22 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 - :material-presentation: [Chapter 2 · Half-spaces and polyhedra](pdf/slides-02-polyhedra.pdf)
 - :material-presentation: [Chapter 3 · Linear optimization problems](pdf/slides-03-linear-optimization-problems.pdf)
 - :material-presentation: [Chapter 4 · Linear Programming problems](pdf/slides-04-lp-problems.pdf)
+- :material-presentation: [Chapter 5 · Possible outcomes and equivalent formulations](pdf/slides-05-outcomes-equivalences.pdf)
+
+### The simplex algorithm
+
+- :material-presentation: [Chapter 6 · Simplex algorithm](pdf/slides-06-simplex.pdf)
+- :material-presentation: [Chapter 7 · Optimality conditions and pivot rules](pdf/slides-07-optimality-pivot.pdf)
+- :material-presentation: [Chapter 8 · Phase 0 of the simplex algorithm](pdf/slides-08-phase-zero.pdf)
+
+### Matrix methods, sensitivity and geometry
+
+- :material-presentation: [Chapter 11 · Revised simplex algorithm](pdf/slides-11-revised-simplex.pdf)
+- :material-presentation: [Chapter 12 · Revised dual simplex algorithm](pdf/slides-12-revised-dual.pdf)
+- :material-presentation: [Chapter 13 · The primal-dual method](pdf/slides-13-primal-dual.pdf)
+- :material-presentation: [Chapter 14 · Sensitivity analysis](pdf/slides-14-sensitivity.pdf)
+- :material-presentation: [Chapter 15 · The geometry of Linear Programming](pdf/slides-15-geometry.pdf)
+
+### Modelling
+
+- :material-presentation: [Chapter 16 · Linear Programming modeling techniques](pdf/slides-16-modelling.pdf)

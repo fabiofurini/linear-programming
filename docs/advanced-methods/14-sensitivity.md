@@ -6,7 +6,7 @@ title: "Sensitivity analysis"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 14** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: Sensitivity analysis](../exercises/ex-14-sensitivity.md) · [:material-gesture-tap: App: Sensitivity analysis](../lab/sensitivity.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 14** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-presentation: Slides](../pdf/slides-14-sensitivity.pdf) · [:material-pencil: Exercises: Sensitivity analysis](../exercises/ex-14-sensitivity.md) · [:material-gesture-tap: App: Sensitivity analysis](../lab/sensitivity.md)
 
 </div>
 

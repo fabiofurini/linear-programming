@@ -6,7 +6,7 @@ title: "Possible outcomes and equivalent formulations"
 
 <div class="info-capitolo" markdown>
 
-**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-pencil: Exercises: Possible outcomes and equivalent formulations](../exercises/ex-05-outcomes-equivalences.md) · [:material-gesture-tap: App: The outcomes of an LP problem](../lab/outcomes.md)
+**Part 1 · Linear functions, polyhedra and linear programming problems · Chapter 5** · [:material-file-pdf-box: Lecture notes, volume 1 (PDF)](../pdf/lecture-notes-1-linear-programming-problems.pdf) · [:material-presentation: Slides](../pdf/slides-05-outcomes-equivalences.pdf) · [:material-pencil: Exercises: Possible outcomes and equivalent formulations](../exercises/ex-05-outcomes-equivalences.md) · [:material-gesture-tap: App: The outcomes of an LP problem](../lab/outcomes.md)
 
 </div>
 
@@ -493,7 +493,7 @@ title: "Possible outcomes and equivalent formulations"
     $$
     \begin{array}{rrrrrrrrrrrrr}
     {\max} & {2} \, {x_1} & {+} & {4} \, {x_2} & {+} & {2} \, {x_3} \\[2ex]
-    \text{subject to} & {-} \, {x_1} & + & \, {x_2} & {+} & {x_3} & {=} & 2 \\[2ex]
+    \text{subject to} & {-} \, {x_1} & {+} & \, {x_2} & {+} & {x_3} & {=} & 2 \\[2ex]
     & {8} \, {x_1} & {+} & {2} \, {x_2} &  &  & {=} & {19} \\[2ex]
     & {x_1} &  &  &  &  & { \ge} & { 0 } \\[2ex]
     &  &  & {x_2} &  &  & { \le} & { 0 } \\[2ex]

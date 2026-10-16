@@ -6,7 +6,7 @@ title: "Optimality conditions and pivot rules"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Optimality conditions and pivot rules](../exercises/ex-07-optimality-pivot.md)
+**Part 2 · The simplex algorithm · Chapter 7** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-presentation: Slides](../pdf/slides-07-optimality-pivot.pdf) · [:material-pencil: Exercises: Optimality conditions and pivot rules](../exercises/ex-07-optimality-pivot.md)
 
 </div>
 
@@ -630,7 +630,7 @@ title: "Optimality conditions and pivot rules"
 
 ## 7.3 Pivot rules
 
-- In pivoting operations, a <strong>pivot rule</strong> is a way of answering to the  two questions:
+- In pivoting operations, a <strong>pivot rule</strong> is a way of answering the two questions:
 
     1. How to determine the pivot column in cases where there are multiple non-basic variables with positive reduced costs?
 
@@ -654,7 +654,7 @@ title: "Optimality conditions and pivot rules"
 
 #### Bland's pivot rule
 
-- The <strong>Bland's pivot rule</strong> (smallest-index pivot rule) selects the pivot column and the pivot row as follows:
+- <strong>Bland's pivot rule</strong> (smallest-index pivot rule) selects the pivot column and the pivot row as follows:
 
     1. the <strong>pivot column</strong> is the non-basic variable $x_p$ with the <strong>smallest index</strong> $p \in \pazocal{N}$ such that:
 

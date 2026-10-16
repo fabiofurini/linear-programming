@@ -6,7 +6,7 @@ title: "The primal-dual method"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 13** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: The primal-dual method](../exercises/ex-13-primal-dual.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 13** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-presentation: Slides](../pdf/slides-13-primal-dual.pdf) · [:material-pencil: Exercises: The primal-dual method](../exercises/ex-13-primal-dual.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "The geometry of Linear Programming"
 
 <div class="info-capitolo" markdown>
 
-**Part 4 · Matrix methods, sensitivity and geometry · Chapter 15** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-pencil: Exercises: The geometry of Linear Programming](../exercises/ex-15-geometry.md)
+**Part 4 · Matrix methods, sensitivity and geometry · Chapter 15** · [:material-file-pdf-box: Lecture notes, volume 4 (PDF)](../pdf/lecture-notes-4-advanced-methods.pdf) · [:material-presentation: Slides](../pdf/slides-15-geometry.pdf) · [:material-pencil: Exercises: The geometry of Linear Programming](../exercises/ex-15-geometry.md)
 
 </div>
 

@@ -6,7 +6,7 @@ title: "Simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Simplex algorithm](../exercises/ex-06-simplex.md) · [:material-gesture-tap: App: The simplex method step by step](../lab/simplex-steps.md)
+**Part 2 · The simplex algorithm · Chapter 6** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-presentation: Slides](../pdf/slides-06-simplex.pdf) · [:material-pencil: Exercises: Simplex algorithm](../exercises/ex-06-simplex.md) · [:material-gesture-tap: App: The simplex method step by step](../lab/simplex-steps.md)
 
 </div>
 

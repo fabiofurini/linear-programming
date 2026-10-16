@@ -6,7 +6,7 @@ title: "Phase 0 of the simplex algorithm"
 
 <div class="info-capitolo" markdown>
 
-**Part 2 · The simplex algorithm · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-pencil: Exercises: Phase 0 of the simplex algorithm](../exercises/ex-08-phase-zero.md)
+**Part 2 · The simplex algorithm · Chapter 8** · [:material-file-pdf-box: Lecture notes, volume 2 (PDF)](../pdf/lecture-notes-2-simplex.pdf) · [:material-presentation: Slides](../pdf/slides-08-phase-zero.pdf) · [:material-pencil: Exercises: Phase 0 of the simplex algorithm](../exercises/ex-08-phase-zero.md)
 
 </div>
 
@@ -49,7 +49,8 @@ title: "Phase 0 of the simplex algorithm"
     \begin{align*}
     \label{OBJ_AUX} &&   \max \;\; - \; x_0  \tag{8.2a}\\[1.5ex]
     \label{CONS1_AUX}     && \text{subject to} \quad  \sum_{j=1}^{n+m} \; {a_{ij} \; x_j} - x_0  & = b_i,  & \forall \;\; i \in \{1,2,\dots,m\}  \tag{8.2b}\\[1.5ex]
-    \label{CONS2_AUX}     && x_0, \; x_j                       &\ge  0, & \forall \;\; j \in \{1,2,\dots,n+m\} \tag{8.2c}
+    \label{CONS3_AUX}     && x_0                               &\ge  0, &  \tag{8.2c}\\[1.5ex]
+    \label{CONS2_AUX}     && x_j                               &\ge  0, & \forall \;\; j \in \{1,2,\dots,n+m\} \tag{8.2d}
     \end{align*}
 
 - The auxiliary variable $x_0$ is placed in the <u>first</u> position, and then the input data of the simplex auxiliary problem [(8.2)](#eq-FORM_AUX) are the column vector ${\boldsymbol x} \in \R^{n+m+1}$ of the variables, the objective-function vector ${\boldsymbol c} \in \Z^{n+m+1}$, whose first entry is $-1$ and whose other entries are $0$, the constraint matrix ${\boldsymbol A} \in \Z^{m \times (n+m+1)}$, obtained by prepending to the original constraint matrix a column of $m$ entries all equal to $-1$, and the right-hand-side vector ${\boldsymbol b} \in \Z^{m}$:
