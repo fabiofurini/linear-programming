@@ -18,6 +18,7 @@ examples worked out step by step and exercises with solutions.
 
 [Start with the LP problems :material-arrow-right:](lp-problems/index.md){ .md-button .md-button--primary }
 [The exercises](exercises/index.md){ .md-button }
+[:material-clipboard-check-outline: Test yourself](self-assessment.md){ .md-button }
 [Try an interactive graph](lab/index.md){ .md-button }
 [:material-download: Download the lecture notes (PDF)](downloads.md){ .md-button }
 
@@ -115,6 +116,16 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     Exercises for every chapter, each with a worked solution that opens with a click.
 
     [:octicons-arrow-right-24: The exercises](exercises/index.md)
+
+-   :material-clipboard-check-outline: **Self-assessment**
+
+    ---
+
+    *Mock exam*
+
+    A new mock exam at every start: 13 questions, 33 points, with the solutions and links to the notes.
+
+    [:octicons-arrow-right-24: Test yourself](self-assessment.md)
 
 -   :material-gesture-tap: **Interactive lab**
 
