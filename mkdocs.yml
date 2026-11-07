@@ -95,6 +95,7 @@ extra:
       lang: en
 
 extra_css:
+  - stylesheets/collana.css
   - stylesheets/extra.css?v=d60085bd58
   - https://cdn.jsdelivr.net/npm/jsxgraph@1.10.1/distrib/jsxgraph.css
   - stylesheets/interattivi.css?v=5d53d6f224
@@ -176,6 +177,7 @@ nav:
       - "15. The geometry of Linear Programming": exercises/ex-15-geometry.md
       - "16. Linear Programming modeling techniques": exercises/ex-16-modelling.md
   - Quiz: self-assessment.md
+  - Lab: lab/index.md
   - Catalogue:
       - catalogue/index.md
       - "LP problems with two variables – Type A": catalogue/2-variables-type-a.md
@@ -186,6 +188,5 @@ nav:
       - "LP problems with three variables – Type B": catalogue/3-variables-type-b.md
       - "LP problems with three variables – Type C": catalogue/3-variables-type-c.md
       - "LP problems with three variables – Type D": catalogue/3-variables-type-d.md
-  - Lab: lab/index.md
   - Downloads: downloads.md
   - Index: indice.md
