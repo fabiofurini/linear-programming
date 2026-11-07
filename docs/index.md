@@ -94,6 +94,7 @@ The graphical method: move the level line along the gradient up to the optimal v
 
 </div>
 
+<!-- collana-da-non-perdere -->
 ## Don't miss
 
 <div class="grid cards" markdown>
@@ -102,17 +103,15 @@ The graphical method: move the level line along the gradient up to the optimal v
 
     ---
 
-    Exercises for every chapter, each with a worked solution that opens with a click.
+    Exercises for every chapter, each with its worked solution that opens with a click.
 
     [:octicons-arrow-right-24: The exercises](exercises/index.md)
 
--   :material-clipboard-check-outline: **Self-assessment**
+-   :material-clipboard-check-outline: **Self-assessment quiz**
 
     ---
 
-    *Mock exam*
-
-    A new mock exam at every start: 13 questions, 33 points, with the solutions and links to the notes.
+    A new mock exam at every start: 13 questions, 33 points, with the solution and the link to the notes. Downloads also has the full question bank.
 
     [:octicons-arrow-right-24: Test yourself](self-assessment.md)
 
@@ -120,16 +119,15 @@ The graphical method: move the level line along the gradient up to the optimal v
 
     ---
 
-    Move the parameters with the sliders, drag the points and watch polyhedra, level lines,
-    optimal vertices and dual problems change before your eyes.
+    Apps running in the browser: move the parameters and watch the ideas of the course at work, one step at a time.
 
-    [:octicons-arrow-right-24: The graphs](lab/index.md)
+    [:octicons-arrow-right-24: The lab](lab/index.md)
 
--   :material-download: **Lecture notes and exercise books in PDF**
+-   :material-download: **Lecture notes in PDF**
 
     ---
 
-    Five volumes of lecture notes, five exercise books and the problem catalogue, with the same numbering as the website.
+    Lecture notes, exercise books and slides in PDF, with the same numbering as the website.
 
     [:octicons-arrow-right-24: Downloads](downloads.md)
 
@@ -137,19 +135,28 @@ The graphical method: move the level line along the gradient up to the optimal v
 
     ---
 
-    The problems P0–P86 used in the examples and exercises, with the figure of the feasible region.
+    The problems used in the examples and exercises, each with its figure.
 
     [:octicons-arrow-right-24: The catalogue](catalogue/index.md)
+
+-   :material-language-python: **Notebooks in Colab**
+
+    ---
+
+    The code of the course running in the browser, with nothing to install.
+
+    [:octicons-arrow-right-24: The notebooks](notebooks.md)
 
 -   :material-format-list-numbered: **Full index**
 
     ---
 
-    All chapters with their sections, on one page.
+    All the chapters with their sections on one page, and how each chapter is organized.
 
     [:octicons-arrow-right-24: The index](indice.md)
 
 </div>
+<!-- /collana-da-non-perdere -->
 
 ---
 
@@ -202,6 +209,8 @@ Ten courses built the same way: lecture notes online and in PDF, exercises with 
 
 </div>
 <!-- /collana -->
+
+---
 
 Teaching material by **[Fabio Furini](https://fabiofurini.github.io/)** —
 [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
