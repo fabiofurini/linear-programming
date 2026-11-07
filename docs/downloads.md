@@ -138,3 +138,10 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 ### Modelling
 
 - :material-presentation: [Chapter 16 · Linear Programming modeling techniques](pdf/slides-16-modelling.pdf)
+
+<!-- banca-domande -->
+## Quiz question bank
+
+All the self-assessment questions, by part and chapter, with the correct answer and the explanation; for the generated questions, whose numbers change at every start, a few examples.
+
+[:material-format-list-checks: Question bank](quiz/question_list.html){ .md-button }
