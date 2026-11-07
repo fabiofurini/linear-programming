@@ -139,14 +139,6 @@ The graphical method: move the level line along the gradient up to the optimal v
 
     [:octicons-arrow-right-24: The catalogue](catalogue/index.md)
 
--   :material-language-python: **Notebooks in Colab**
-
-    ---
-
-    The code of the course running in the browser, with nothing to install.
-
-    [:octicons-arrow-right-24: The notebooks](notebooks.md)
-
 -   :material-format-list-numbered: **Full index**
 
     ---
