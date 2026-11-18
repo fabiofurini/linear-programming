@@ -20,6 +20,8 @@ professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 duality, advanced methods and modelling techniques, with definitions, theorems with their proofs,
 examples worked out step by step and exercises with solutions.
 
+Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
+
 [Start :material-arrow-right:](lp-problems/index.md){ .md-button .md-button--primary }
 [:material-pencil: Exercises](exercises/index.md){ .md-button }
 [:material-gesture-tap: Lab](lab/index.md){ .md-button }
