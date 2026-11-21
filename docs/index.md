@@ -33,9 +33,9 @@ Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 <!-- collana-app -->
 ## Try it now
 
-The graphical method: move the level line along the gradient up to the optimal vertex, drag the points and change the constraints.
+The graphical method: the level line is already on the optimal vertex, the last point of the feasible region it touches moving along the gradient. Set z back to zero and press ▶ to slide it, or change problem.
 
-<div class="gi" data-grafico="metodo-grafico"></div>
+<div class="gi" data-grafico="metodo-grafico" data-vetrina="P2"></div>
 
 [:material-gesture-tap: More apps in the lab](lab/index.md){ .md-button }
 <!-- /collana-app -->
