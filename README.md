@@ -55,7 +55,8 @@ Il corso sarà disponibile anche in italiano:
 
 ## Same series
 
-- [Operations Research Lab](https://fabiofurini.github.io/operations-research-lab/)
+- [LP Modelling](https://fabiofurini.github.io/lp-modelling/)
+- [NLP Modelling](https://fabiofurini.github.io/nlp-modelling/)
 - [MIP Modelling](https://fabiofurini.github.io/mip-modelling/)
 - [Mathematical Analysis 1](https://fabiofurini.github.io/mathematical-analysis-1/)
 - [Linear Algebra](https://fabiofurini.github.io/linear-algebra/)
