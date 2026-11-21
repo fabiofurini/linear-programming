@@ -10,6 +10,28 @@ title: "Duality theory"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 4 «Linear Programming problems»](https://fabiofurini.github.io/linear-programming/lp-problems/04-lp-problems/): the canonical maximization form and the lower bounds from feasible solutions.
+
+    - From this module, [Chapter 5 «Possible outcomes and equivalent formulations»](https://fabiofurini.github.io/linear-programming/lp-problems/05-outcomes-equivalences/): the three outcomes of an LP problem and the equivalent reformulations.
+
+    - From this module, [Chapter 8 «Phase 0 of the simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/08-phase-zero/): the Fundamental Theorem, used in the proof of Strong Duality.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - derive upper bounds on $z(LP)$ from non-negative combinations of the constraints, and write the dual problem;
+
+    - state and use Weak Duality and Strong Duality;
+
+    - list the possible outcomes of a pair of primal and dual problems, and use them as certificates;
+
+    - apply the Complementary Slackness conditions to check optimality;
+
+    - write the dual problem of a generic LP problem.
+
 ## 9.1 Dual problem of an LP problem in canonical max form
 
 <a id="box-1-def-dual"></a>
@@ -1796,6 +1818,20 @@ title: "Duality theory"
 !!! chiave ""
 
     Since an equivalent LP problem in canonical maximization form can be obtained from an LP in generic maximization form, Weak Duality, Strong Duality, and the Complementary Slackness theorem hold for the generic case as well.
+
+## 9.5 In summary
+
+!!! chiave "In summary"
+
+    - The dual problem $D(LP)$ looks for the best upper bound on $z(LP)$ obtained from non-negative combinations of the constraints.
+
+    - Weak Duality: the value of every primal feasible solution is at most the value of every dual feasible solution. Strong Duality: if one of the two problems has an optimal solution, both have one, with the same value.
+
+    - Only four outcomes of the pair are possible; for instance, if the primal problem is unbounded, the dual problem is infeasible.
+
+    - Complementary Slackness: two feasible solutions are optimal if and only if every positive variable corresponds to an active constraint of the other problem.
+
+    - The three theorems hold for every LP problem, through its dual in generic form.
 
 ---
 

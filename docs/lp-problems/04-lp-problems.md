@@ -10,6 +10,24 @@ title: "Linear Programming problems"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 3 «Linear optimization problems»](https://fabiofurini.github.io/linear-programming/lp-problems/03-linear-optimization-problems/): LP problems, feasible and optimal solutions, optimal value.
+
+    - From this module, [Chapter 1 «Linear functions»](https://fabiofurini.github.io/linear-programming/lp-problems/01-linear-functions/): the gradient and the level sets of a linear function.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write an LP problem in canonical maximization form and in standard maximization form;
+
+    - describe the feasible region and the objective function of each form;
+
+    - obtain a lower bound on the optimal value from a feasible solution;
+
+    - solve an LP problem with two or three variables by the graphical method.
+
 ## 4.1 Canonical maximization form
 
 <a id="box-1-defCanonical"></a>
@@ -726,6 +744,16 @@ title: "Linear Programming problems"
     i.e., on the segment joining the points $\begin{pmatrix} 2\\ 0\\ 0 \end{pmatrix}$ and $\begin{pmatrix} 0\\ 0\\ 4 \end{pmatrix}$. Taking for instance the optimal solution $\tilde{\boldsymbol x}(\, LP \,) = \begin{pmatrix} 2\\ 0\\ 0 \end{pmatrix}$ (where $\tilde{x}_1=2$, $\tilde{x}_2=0$ and $\tilde{x}_3=0$), the optimal value is: $z(\, LP \,) = 2\,\tilde{x}_1 + 2\,\tilde{x}_2 + \tilde{x}_3 = 2 \cdot 2 + 2 \cdot 0 + 0 = 4.$
 
     ![Figure 9](../img/04-lp-problems/fig09.svg){ .fig .cornice loading=lazy style="width:59%" }
+
+## 4.3 In summary
+
+!!! chiave "In summary"
+
+    - Canonical maximization form: $\max {\boldsymbol c}'{\boldsymbol x}$ with ${\boldsymbol A}{\boldsymbol x} \le {\boldsymbol b}$ and ${\boldsymbol x} \ge {\boldsymbol 0}$; standard maximization form: the same with ${\boldsymbol A}{\boldsymbol x} = {\boldsymbol b}$.
+
+    - Every feasible solution $\bar{\boldsymbol x}$ gives the lower bound $LB(\bar{\boldsymbol x}) \le z(LP)$.
+
+    - The graphical method moves a level set of the objective function in the direction of the gradient, as long as it meets the feasible region.
 
 ---
 

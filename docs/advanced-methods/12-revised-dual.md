@@ -10,6 +10,24 @@ title: "Revised dual simplex algorithm"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 10 «Dual Simplex algorithm»](https://fabiofurini.github.io/linear-programming/duality/10-dual-simplex/): the dual simplex algorithm.
+
+    - From this module, [Chapter 11 «Revised simplex algorithm»](https://fabiofurini.github.io/linear-programming/advanced-methods/11-revised-simplex/): the revised simplex algorithm and its two systems of linear equations.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the pivot row of the dual simplex algorithm with a system in which ${\boldsymbol A}_{\pazocal{B}}$ is on the right of the unknown vector;
+
+    - update the reduced costs after a dual pivoting operation;
+
+    - run the revised dual simplex algorithm with its pseudo-code;
+
+    - compare the two revised algorithms, and obtain the optimal dual solution at the end.
+
 ## 12.1 Pivoting operations with two systems of linear equations
 
 - We consider an LP problem in standard maximization form with $n+m$ non-negative variables and $m$ equality linear constraints:
@@ -430,6 +448,16 @@ title: "Revised dual simplex algorithm"
         $$
 
         that is, $\tilde{\boldsymbol \pi}(\, D(LP) \,) = \left(\frac{7}{6}~~\frac{1}{6}~~0\right)'$, whose objective value is ${\boldsymbol b}' \tilde{\boldsymbol \pi} = -8 = z(\, LP \,)$, in accordance with the Strong Duality theorem.
+
+## 12.5 In summary
+
+!!! chiave "In summary"
+
+    - The revised dual simplex algorithm solves two systems with ${\boldsymbol A}_{\pazocal{B}}$ per iteration: one gives $\bar{\boldsymbol b}$, the other the pivot row.
+
+    - It updates only the partition and the reduced costs, with $\bar c_j \leftarrow \bar c_j - (\bar c_p / \bar a_{rp})\, \bar a_{rj}$.
+
+    - The two revised algorithms are symmetric; the optimal dual solution costs one more system, solved once at the end.
 
 ---
 

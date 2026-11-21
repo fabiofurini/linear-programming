@@ -10,6 +10,22 @@ title: "Optimality conditions and pivot rules"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 6 «Simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/06-simplex/): dictionaries, basic feasible solutions, reduced costs and pivoting operations.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - prove that a basic feasible solution with non-positive reduced costs is optimal;
+
+    - recognize degenerate basic feasible solutions and degenerate pivoting operations;
+
+    - explain why the simplex algorithm can cycle only through degenerate pivoting operations;
+
+    - apply Bland's rule, which prevents cycling.
+
 ## 7.1 Sufficient conditions for optimality
 
 - We consider an LP problem in standard maximization form with $n+m$ non-negative variables and $m$ equality linear constraints, obtained from an LP problem in canonical maximization form with $n$ non-negative variables and $m$ less-than-or-equal-to linear constraints by adding $m$ slack non-negative variables:
@@ -758,6 +774,18 @@ title: "Optimality conditions and pivot rules"
     In particular,  $x_r = 0$. But in $D$,  $x_r$ is basic. Hence $\bar{b}_r=0$ and, since $\bar{a}_{rs} > 0$, we have $\frac{\bar{b}_r}{\bar{a}_{rs}} = 0 = t_m$. So $x_r$ was a candidate to be the pivot row in $D$, and since $r < t$, according to Bland's rule it should have been chosen instead of $x_t$.
 
     This is the contradiction that proves that a cycling sequence of dictionaries cannot exist using Bland's rule. <span class="qed">□</span>
+
+## 7.4 In summary
+
+!!! chiave "In summary"
+
+    - If $\bar{\boldsymbol b} \ge {\boldsymbol 0}$ and $\bar{\boldsymbol c} \le {\boldsymbol 0}$, the basic feasible solution is optimal (sufficient condition).
+
+    - A basic feasible solution is degenerate when some basic variable is $0$; then the condition $\bar{\boldsymbol c} \le {\boldsymbol 0}$ is not necessary.
+
+    - The objective value increases in every non-degenerate pivoting operation and stays the same in a degenerate one, so the simplex algorithm can cycle only through degenerate ones.
+
+    - With Bland's rule (smallest index for the pivot column and for the pivot row) the simplex algorithm does not cycle.
 
 ---
 

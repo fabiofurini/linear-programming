@@ -31,19 +31,24 @@ lecture notes: on the website and in the PDF you find everything in the same pla
 
 1. [Linear functions](lp-problems/01-linear-functions.md)
     - 1.1 Linear functions
+    - 1.2 In summary
 2. [Half-spaces and polyhedra](lp-problems/02-polyhedra.md)
     - 2.1 Half-spaces and supporting hyperplanes
     - 2.2 Polyhedra
+    - 2.3 In summary
 3. [Linear optimization problems](lp-problems/03-linear-optimization-problems.md)
     - 3.1 Linear Programming problems
     - 3.2 Examples and properties of linear optimization problems
+    - 3.3 In summary
 4. [Linear Programming problems](lp-problems/04-lp-problems.md)
     - 4.1 Canonical maximization form
     - 4.2 Standard maximization form
+    - 4.3 In summary
 5. [Possible outcomes and equivalent formulations](lp-problems/05-outcomes-equivalences.md)
     - 5.1 The two reference forms
     - 5.2 Infeasible and unbounded LP problems
     - 5.3 Equivalent reformulations
+    - 5.4 In summary
 
 ## [The simplex algorithm](simplex/index.md)
 
@@ -52,10 +57,12 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 6.2 Basis of the LP problem in standard form and dictionaries
     - 6.3 Pivoting operations
     - 6.4 High-level pseudo-code of the simplex algorithm
+    - 6.5 In summary
 7. [Optimality conditions and pivot rules](simplex/07-optimality-pivot.md)
     - 7.1 Sufficient conditions for optimality
     - 7.2 Necessary conditions for optimality
     - 7.3 Pivot rules
+    - 7.4 In summary
 8. [Phase 0 of the simplex algorithm](simplex/08-phase-zero.md)
     - 8.1 The simplex auxiliary problem
     - 8.2 Solving the simplex auxiliary problem
@@ -63,6 +70,7 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 8.4 Detecting infeasible LP problems
     - 8.5 Pseudo-code of the simplex algorithm with the Phase $0$
     - 8.6 The Fundamental Theorem of Linear Programming
+    - 8.7 In summary
 
 ## [Duality and the dual simplex](duality/index.md)
 
@@ -71,6 +79,7 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 9.2 Primal and dual problems: possible outcomes
     - 9.3 Complementary Slackness
     - 9.4 Dual problem of a generic LP problem
+    - 9.5 In summary
 10. [Dual Simplex algorithm](duality/10-dual-simplex.md)
     - 10.1 Pair of primal and dual problems
     - 10.2 Primal and dual feasible bases
@@ -78,17 +87,20 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 10.4 Dual pivoting operations
     - 10.5 Pseudo-code of the dual simplex algorithm
     - 10.6 Solving the dual problem with the simplex algorithm
+    - 10.7 In summary
 
 ## [Matrix methods, sensitivity and geometry](advanced-methods/index.md)
 
 11. [Revised simplex algorithm](advanced-methods/11-revised-simplex.md)
     - 11.1 Pivoting operations with two systems of linear equations
     - 11.2 Pseudo-code of the revised simplex algorithm
+    - 11.3 In summary
 12. [Revised dual simplex algorithm](advanced-methods/12-revised-dual.md)
     - 12.1 Pivoting operations with two systems of linear equations
     - 12.2 Updating the reduced costs
     - 12.3 Pseudo-code of the revised dual simplex algorithm
     - 12.4 Execution of the revised dual simplex algorithm
+    - 12.5 In summary
 13. [The primal-dual method](advanced-methods/13-primal-dual.md)
     - 13.1 The reference pair of primal and dual problems
     - 13.2 The restricted primal problem
@@ -96,19 +108,20 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 13.4 Pseudo-code of the primal-dual method
     - 13.5 Execution of the primal-dual method
     - 13.6 Comparison with the simplex algorithms
+    - 13.7 In summary
 14. [Sensitivity analysis](advanced-methods/14-sensitivity.md)
     - 14.1 Optimal bases and their two conditions
     - 14.2 Changes in the objective-function vector
     - 14.3 Changes in the right-hand-side vector
     - 14.4 Adding a new variable
     - 14.5 Adding a new constraint
-    - 14.6 Summary
+    - 14.6 In summary
 15. [The geometry of Linear Programming](advanced-methods/15-geometry.md)
     - 15.1 The dimension of a polyhedron
     - 15.2 Faces, facets and vertices
     - 15.3 Basic feasible solutions and vertices
     - 15.4 The Fundamental Theorem, geometrically
-    - 15.5 Summary
+    - 15.5 In summary
 
 ## [Modelling](modelling/index.md)
 
@@ -120,3 +133,4 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 16.5 Multi-period planning
     - 16.6 Linearization techniques
     - 16.7 What cannot be modeled with Linear Programming
+    - 16.8 In summary

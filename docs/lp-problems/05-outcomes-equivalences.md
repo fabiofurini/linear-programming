@@ -10,6 +10,22 @@ title: "Possible outcomes and equivalent formulations"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 4 «Linear Programming problems»](https://fabiofurini.github.io/linear-programming/lp-problems/04-lp-problems/): the canonical and the standard maximization forms, and the graphical method.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - recognize infeasible and unbounded LP problems, and LP problems with several optimal solutions;
+
+    - state the three possible outcomes of an LP problem;
+
+    - rewrite a generic LP problem in canonical and in standard maximization form, with slack, surplus, non-positive and free variables;
+
+    - turn rational input data into integer data with the least common denominator.
+
 ## 5.1 The two reference forms
 
 - Throughout this chapter we refer to the two forms of an LP problem introduced in the previous one. Given an objective-function vector ${\boldsymbol c} \in \R^{n}$, a constraint matrix ${\boldsymbol A} \in \R^{m \times n }$ and a right-hand-side vector ${\boldsymbol b} \in \R^{m}$, they read as follows.
@@ -662,6 +678,18 @@ title: "Possible outcomes and equivalent formulations"
     & {x_1,} &  & {x_2,} &  & {x_3,} &  & {x_4,} &  & {x_5} & { \ge} & { 0 }
     \end{array}
     $$
+
+## 5.4 In summary
+
+!!! chiave "In summary"
+
+    - An LP problem is exactly one of: infeasible, unbounded, or with an optimal solution; an unbounded feasible region does not make the problem unbounded.
+
+    - Equivalent problems have the same optimal solutions; passing from min to max changes the sign of the optimal value.
+
+    - Slack and surplus variables turn inequalities into equalities; a non-positive variable is replaced by its opposite, a free variable by the difference of two non-negative ones.
+
+    - Every LP problem can be written in canonical and in standard maximization form, and with integer data.
 
 ---
 

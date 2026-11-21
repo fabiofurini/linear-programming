@@ -10,6 +10,26 @@ title: "The primal-dual method"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 9 «Duality theory»](https://fabiofurini.github.io/linear-programming/duality/09-duality/): the dual problem and the Complementary Slackness theorem.
+
+    - From this module, [Chapter 8 «Phase 0 of the simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/08-phase-zero/): Phase $0$ and its auxiliary problem, which the restricted primal problem resembles.
+
+    - From this module, [Chapter 10 «Dual Simplex algorithm»](https://fabiofurini.github.io/linear-programming/duality/10-dual-simplex/): the dual simplex algorithm, compared with the method.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define the admissible set of a dual feasible solution and the restricted primal problem;
+
+    - decide from the optimal value of the restricted primal problem whether the current solutions are optimal;
+
+    - compute the direction and the step length of the dual step;
+
+    - run the primal-dual method and compare it with the simplex algorithms.
+
 ## 13.1 The reference pair of primal and dual problems
 
 - The simplex algorithm keeps a <strong>primal feasible</strong> basis and works towards dual feasibility; the dual simplex algorithm keeps a <strong>dual feasible</strong> basis and works towards primal feasibility. The <strong>primal-dual method</strong> does something different: it keeps a dual feasible solution, which is <u>not</u> required to be a basic one, and it uses it to decide which primal variables are allowed to take a positive value.
@@ -429,6 +449,18 @@ title: "The primal-dual method"
     The difference between the dual simplex algorithm and the primal-dual method is that the former keeps a dual feasible <strong>basis</strong>, while the latter keeps a dual feasible <strong>solution</strong>, which need not be basic. For this reason the primal-dual method can start from any dual feasible solution, even one suggested by the structure of the problem.
 
 - The practical interest of the primal-dual method is that the restricted primal problem [(13.3)](#eq-PD_RP) is often much easier than the original LP problem: it has fewer variables, and for several <strong>combinatorial optimization</strong> problems it turns out to be a problem with a known combinatorial algorithm, such as a shortest path or a maximum flow problem. In those cases the primal-dual method becomes a purely combinatorial algorithm, and it is the origin of many classical algorithms and of several approximation algorithms.
+
+## 13.7 In summary
+
+!!! chiave "In summary"
+
+    - The primal-dual method keeps a dual feasible solution ${\boldsymbol \pi}$ and looks for a primal solution that satisfies Complementary Slackness with it.
+
+    - The restricted primal problem uses only the variables of the admissible set; optimal value zero means that the two solutions are optimal.
+
+    - Otherwise the dual step ${\boldsymbol \pi} \leftarrow {\boldsymbol \pi} + \theta {\boldsymbol y}$ strictly increases the dual objective value.
+
+    - Unlike the dual simplex algorithm, which keeps a dual feasible basis, the method keeps a dual feasible solution, not necessarily basic.
 
 ---
 

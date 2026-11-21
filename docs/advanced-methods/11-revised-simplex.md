@@ -10,6 +10,26 @@ title: "Revised simplex algorithm"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 6 «Simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/06-simplex/): the simplex algorithm on dictionaries.
+
+    - From this module, [Chapter 10 «Dual Simplex algorithm»](https://fabiofurini.github.io/linear-programming/duality/10-dual-simplex/): the dual solution ${\boldsymbol \pi}$ associated with a basis.
+
+    - From the module <em>Linear Algebra</em>, the chapter [«System of linear equations»](https://fabiofurini.github.io/linear-algebra/systems/01-linear-systems/): solving systems of linear equations.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - explain why the revised simplex algorithm does not compute the inverse ${\boldsymbol A}_{\pazocal{B}}^{-1}$ nor the whole dictionary;
+
+    - compute the reduced costs by solving the system for the row vector ${\boldsymbol \pi}$;
+
+    - compute the pivot column by solving the system for a column vector, and then the pivot row;
+
+    - run the revised simplex algorithm with its pseudo-code.
+
 <a id="box-1-ex-rsimplex-1"></a>
 
 !!! esempio "Example 11.1: an LP problem in canonical form and its standard form"
@@ -662,6 +682,16 @@ title: "Revised simplex algorithm"
     $$
 
     is  an optimal  solution of the  LP problem and ${\bar{z}} = 32$ is the optimal value.
+
+## 11.3 In summary
+
+!!! chiave "In summary"
+
+    - The revised simplex algorithm keeps only the basis and the values of the basic variables, not the whole dictionary.
+
+    - At every iteration it solves two systems with the matrix ${\boldsymbol A}_{\pazocal{B}}$: one for the row vector ${\boldsymbol \pi}$ (reduced costs) and one for the pivot column.
+
+    - It never computes ${\boldsymbol A}_{\pazocal{B}}^{-1}$; the choices of pivot column and pivot row are those of the simplex algorithm.
 
 ---
 

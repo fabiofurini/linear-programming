@@ -42,7 +42,7 @@
 
     ---
 
-    The dimension of a polyhedron · Faces, facets and vertices · Basic feasible solutions and vertices · The Fundamental Theorem, geometrically · …
+    The dimension of a polyhedron · Faces, facets and vertices · Basic feasible solutions and vertices · The Fundamental Theorem, geometrically
 
     [:octicons-arrow-right-24: Read the chapter](15-geometry.md) · [Exercises](../exercises/ex-15-geometry.md)
 

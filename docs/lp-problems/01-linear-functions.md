@@ -10,6 +10,26 @@ title: "Linear functions"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From the module <em>Linear Algebra</em>, the chapter [«Vectors»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/01-vectors/): column and row vectors, the transpose and the scalar product ${\boldsymbol c}'{\boldsymbol x}$.
+
+    - From the same module, the chapter [«Matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/02-matrices/): square matrices and the zero matrix.
+
+    - From the module <em>Mathematical Analysis 1</em>, the chapter [«The derivative function»](https://fabiofurini.github.io/mathematical-analysis-1/derivatives/01-the-derivative/): derivatives, used here one variable at a time as partial derivatives.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write the linear function associated with a vector ${\boldsymbol c} \in \R^n$;
+
+    - compute its gradient and its Hessian, and explain why they do not depend on the point;
+
+    - describe its level sets as hyperplanes perpendicular to the gradient, and draw them in the plane;
+
+    - read the graph of a linear function of two variables.
+
 ## 1.1 Linear functions
 
 <a id="box-1-defXX"></a>
@@ -198,6 +218,16 @@ title: "Linear functions"
     With ${\boldsymbol c}=\begin{pmatrix} -8\\ -4 \end{pmatrix}$, we have $f\left(\begin{pmatrix} x_1 \\ x_2 \\ \end{pmatrix}\right)=-8\;x_1- 4\;x_2$. Its graph is:
 
     ![Figure 4](../img/01-linear-functions/fig04.svg){ .fig .ovale loading=lazy style="width:59%" }
+
+## 1.2 In summary
+
+!!! chiave "In summary"
+
+    - A linear function is $f({\boldsymbol x}) = {\boldsymbol c}'{\boldsymbol x}$, with ${\boldsymbol c} \in \R^n$.
+
+    - Its gradient is the same vector ${\boldsymbol c}$ at every point, and its Hessian is the zero matrix.
+
+    - Its level sets ${\boldsymbol c}'{\boldsymbol x} = k$ are hyperplanes perpendicular to the gradient.
 
 <!-- laboratorio-interattivo: sezione generata da interattivi.py -->
 

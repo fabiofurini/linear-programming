@@ -10,6 +10,24 @@ title: "Linear Programming modeling techniques"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 5 «Possible outcomes and equivalent formulations»](https://fabiofurini.github.io/linear-programming/lp-problems/05-outcomes-equivalences/): generic LP problems and their equivalent reformulations, with free variables.
+
+    - From this module, [Chapter 4 «Linear Programming problems»](https://fabiofurini.github.io/linear-programming/lp-problems/04-lp-problems/): the graphical method, used to check small models.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write an LP model from a description: decision variables with their units, objective function, constraints;
+
+    - model production planning, blending, transportation and multi-period planning problems;
+
+    - linearize min-max objectives, absolute values and ratio constraints;
+
+    - recognize the requirements that need integer variables.
+
 ## 16.1 From a problem description to an LP model
 
 - A <strong>model</strong> of an optimization problem is a mathematical description of its feasible solutions and of the quantity to be optimized. Writing a model requires three steps, always in this order.
@@ -359,6 +377,18 @@ title: "Linear Programming modeling techniques"
 - A frequent mistake is to write a fixed cost as a non-linear term of the objective function, or to impose a minimum positive quantity with the constraint $x_j \ge q$: the latter forbids the solution $x_j = 0$, which instead has to remain feasible.
 
 - Whenever the requirements of a problem are of the kind listed above, the LP model obtained by ignoring them is still useful: it is a <strong>relaxation</strong> of the correct model, and then its optimal value is an upper bound on the optimal value of the correct model, for a maximization problem, and a lower bound for a minimization problem.
+
+## 16.8 In summary
+
+!!! chiave "In summary"
+
+    - An LP model is built in three steps: decision variables (with units and domains), objective function, constraints.
+
+    - The most frequent mistakes are missing non-negativity constraints, dimensionally inconsistent constraints, and variables used in the objective function without being defined.
+
+    - Production, blending, transportation and multi-period planning follow standard patterns, with balance constraints linking the periods.
+
+    - Min-max objectives, absolute values and ratios become linear with an auxiliary variable or by multiplying by a positive denominator; indivisible quantities and logical conditions need integer variables.
 
 ---
 

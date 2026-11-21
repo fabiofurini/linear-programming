@@ -10,6 +10,28 @@ title: "The geometry of Linear Programming"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 2 «Half-spaces and polyhedra»](https://fabiofurini.github.io/linear-programming/lp-problems/02-polyhedra/): polyhedra and polytopes.
+
+    - From this module, [Chapter 7 «Optimality conditions and pivot rules»](https://fabiofurini.github.io/linear-programming/simplex/07-optimality-pivot/): degenerate basic feasible solutions and pivoting operations.
+
+    - From this module, [Chapter 8 «Phase 0 of the simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/08-phase-zero/): the Fundamental Theorem of Linear Programming.
+
+    - From the module <em>Linear Algebra</em>, the chapter [«Matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/02-matrices/): linear independence and rank.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - compute the dimension of a polyhedron through its affine hull, and recognize full-dimensional polyhedra;
+
+    - define valid inequalities, faces, facets, vertices and extreme points;
+
+    - prove that basic feasible solutions and vertices coincide, and explain the role of degeneracy;
+
+    - read the Fundamental Theorem and the pivoting operations as statements on vertices and edges.
+
 ## 15.1 The dimension of a polyhedron
 
 - The feasible region of an LP problem is a polyhedron $F \subseteq \R^n$. So far we have described it through its linear constraints; in this document we describe its <strong>geometric</strong> structure, and we relate it to the algebraic notions of basis and basic feasible solution.
@@ -397,7 +419,17 @@ title: "The geometry of Linear Programming"
 
     ![Figure 3](../img/15-geometry/fig03.svg){ .fig .cornice loading=lazy style="width:56%" }
 
-## 15.5 Summary
+## 15.5 In summary
+
+!!! chiave "In summary"
+
+    - The dimension of a polyhedron is that of its affine hull; the feasible region in standard form is never full-dimensional.
+
+    - Faces are the sets where a valid inequality is binding; facets are the largest proper faces, vertices the smallest non-empty ones, and vertices are the extreme points.
+
+    - Basic feasible solutions are exactly the vertices; a degenerate vertex has several bases.
+
+    - If an LP problem has an optimal solution and its feasible region has a vertex, some vertex is optimal; a pivoting operation moves to an adjacent vertex.
 
 !!! chiave ""
 

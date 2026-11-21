@@ -10,6 +10,24 @@ title: "Sensitivity analysis"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 10 «Dual Simplex algorithm»](https://fabiofurini.github.io/linear-programming/duality/10-dual-simplex/): primal and dual feasible bases and the dual simplex algorithm.
+
+    - From this module, [Chapter 9 «Duality theory»](https://fabiofurini.github.io/linear-programming/duality/09-duality/): the dual solution and Strong Duality.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the two conditions that make a basis optimal;
+
+    - compute the range of a cost coefficient, of a basic or non-basic variable, in which the basis stays optimal;
+
+    - compute the range of a right-hand side and interpret the shadow prices as marginal values;
+
+    - handle the addition of a new variable or of a new constraint, restarting from the old optimal basis.
+
 ## 14.1 Optimal bases and their two conditions
 
 - The input data of an LP problem are rarely known exactly: the entries of the objective-function vector ${\boldsymbol c}$ and of the right-hand-side vector ${\boldsymbol b}$ are estimates, and they may change after the LP problem has been solved. The <strong>sensitivity analysis</strong> studies how an optimal solution and the optimal value change when the input data change.
@@ -457,7 +475,17 @@ title: "Sensitivity analysis"
 
     In violet the optimal solution of the original LP problem, which violates the new constraint, and in blue the optimal solution of the new LP problem, reached with one dual pivoting operation.
 
-## 14.6 Summary
+## 14.6 In summary
+
+!!! chiave "In summary"
+
+    - An optimal basis is primal feasible and dual feasible; a change of the data keeps it optimal as long as the two conditions still hold.
+
+    - A change of ${\boldsymbol c}$ (or a new variable) can break only dual feasibility: the simplex algorithm restarts from the old basis.
+
+    - A change of ${\boldsymbol b}$ (or a new constraint) can break only primal feasibility: the dual simplex algorithm restarts from it.
+
+    - The shadow price $\pi_k$ is the marginal value of constraint $k$: $z(LP)$ changes by $\delta \pi_k$ as long as the basis stays optimal.
 
 !!! chiave ""
 

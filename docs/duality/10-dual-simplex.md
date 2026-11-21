@@ -10,6 +10,24 @@ title: "Dual Simplex algorithm"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 6 «Simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/06-simplex/): dictionaries and pivoting operations.
+
+    - From this module, [Chapter 9 «Duality theory»](https://fabiofurini.github.io/linear-programming/duality/09-duality/): the dual problem, Weak and Strong Duality.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define primal feasible and dual feasible bases, and the dual solution ${\boldsymbol \pi} = {\boldsymbol c}'_{\pazocal{B}}{\boldsymbol A}_{\pazocal{B}}^{-1}$ of a basis;
+
+    - find an initial dual feasible basis;
+
+    - choose the pivot row and the pivot column of a dual pivoting operation, also with Bland's rule;
+
+    - recognize the certificate of infeasibility, and run the dual simplex algorithm to the end.
+
 ## 10.1 Pair of primal and dual problems
 
 - We consider the standard maximization form of the dual problem, obtained by adding $n$ surplus non-negative variables to a dual LP problem with $m$ non-negative variables and $n$ greater-than-or-equal-to linear constraints:
@@ -1772,6 +1790,18 @@ title: "Dual Simplex algorithm"
             \tilde x_4=0~~
             \text{  of value   } -8
             $$
+
+## 10.7 In summary
+
+!!! chiave "In summary"
+
+    - A basis is primal feasible if $\bar{\boldsymbol b} \ge {\boldsymbol 0}$ and dual feasible if $\bar{\boldsymbol c} \le {\boldsymbol 0}$, that is, if ${\boldsymbol \pi}$ is dual feasible; both together mean optimal.
+
+    - The dual simplex algorithm keeps a dual feasible basis and pursues primal feasibility.
+
+    - The pivot row is a basic variable with negative value; the pivot column is chosen by the minimum ratio $\bar c_p / \bar a_{rp}$; the dictionary is updated as in the simplex algorithm.
+
+    - If the pivot row has no negative entry $\bar a_{rj}$, the problem is infeasible (certificate of infeasibility).
 
 ---
 

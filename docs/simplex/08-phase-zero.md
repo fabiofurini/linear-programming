@@ -10,6 +10,26 @@ title: "Phase 0 of the simplex algorithm"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 6 «Simplex algorithm»](https://fabiofurini.github.io/linear-programming/simplex/06-simplex/): the simplex algorithm from an initial basic feasible solution.
+
+    - From this module, [Chapter 7 «Optimality conditions and pivot rules»](https://fabiofurini.github.io/linear-programming/simplex/07-optimality-pivot/): optimality conditions and Bland's rule.
+
+    - From this module, [Chapter 5 «Possible outcomes and equivalent formulations»](https://fabiofurini.github.io/linear-programming/lp-problems/05-outcomes-equivalences/): infeasible LP problems.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - write the simplex auxiliary problem of an LP problem with some $b_i < 0$;
+
+    - solve it, starting with the special pivoting operation on $x_0$;
+
+    - decide from its optimal value whether the LP problem is infeasible, and otherwise obtain an initial basic feasible solution;
+
+    - state the Fundamental Theorem of Linear Programming.
+
 ## 8.1 The simplex auxiliary problem
 
 - We consider an LP problem in standard maximization form with $n+m$ non-negative variables and $m$ equality linear constraints, obtained from an LP problem in canonical maximization form with $n$ non-negative variables and $m$ less-than-or-equal-to linear constraints by adding $m$ slack non-negative variables:
@@ -558,6 +578,18 @@ title: "Phase 0 of the simplex algorithm"
     $$
 
     The simplex algorithm explores a small subset of them, moving from one basic feasible solution to another one whose objective value is not smaller.
+
+## 8.7 In summary
+
+!!! chiave "In summary"
+
+    - When the slack basis is not feasible, Phase $0$ solves the simplex auxiliary problem, which is never infeasible and never unbounded.
+
+    - Its first pivoting operation brings $x_0$ into the basis in place of the variable with the smallest $b_i$.
+
+    - A strictly negative optimal value proves that the LP problem is infeasible; a zero value gives an initial basic feasible solution, after the objective function is rewritten.
+
+    - Fundamental Theorem: if an LP problem has an optimal solution, it has an optimal basic feasible solution, among at most $\binom{n+m}{m}$ bases.
 
 ---
 

@@ -10,6 +10,24 @@ title: "Linear optimization problems"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 1 «Linear functions»](https://fabiofurini.github.io/linear-programming/lp-problems/01-linear-functions/): linear functions.
+
+    - From this module, [Chapter 2 «Half-spaces and polyhedra»](https://fabiofurini.github.io/linear-programming/lp-problems/02-polyhedra/): polyhedra, defined by inequalities and equalities.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - state the definition of an LP problem in minimization and in maximization form;
+
+    - identify the input data ${\boldsymbol A}$, ${\boldsymbol b}$, ${\boldsymbol c}$, the feasible region and the objective function;
+
+    - define optimal solutions and optimal value, and explain why an optimal solution may not exist;
+
+    - use a feasible solution as a bound on the optimal value.
+
 ## 3.1 Linear Programming problems
 
 <a id="box-1-defLP"></a>
@@ -352,6 +370,18 @@ title: "Linear optimization problems"
     The minimum of $-2\left(\frac{1}{2}x-1\right)$ and the maximum of $\frac{1}{2}x-1$ are both attained at $x=5$.
 
     ![Figure 6](../img/03-linear-optimization-problems/fig06.svg){ .fig .ovale loading=lazy style="width:44%" }
+
+## 3.3 In summary
+
+!!! chiave "In summary"
+
+    - An LP problem asks for a point of a polyhedron $F$ (the feasible region) that minimizes or maximizes a linear function (the objective function).
+
+    - Its input data are ${\boldsymbol A}$, ${\boldsymbol b}$, ${\boldsymbol c}$ and, for every row, whether it is an inequality or an equality.
+
+    - The goal is an optimal solution $\tilde{\boldsymbol x}(LP)$, not only the optimal value $z(LP)$; there can be one, infinitely many or none.
+
+    - The value of every feasible solution is a bound on $z(LP)$: an upper bound in minimization, a lower bound in maximization.
 
 ---
 

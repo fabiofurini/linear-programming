@@ -10,6 +10,26 @@ title: "Simplex algorithm"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 5 «Possible outcomes and equivalent formulations»](https://fabiofurini.github.io/linear-programming/lp-problems/05-outcomes-equivalences/): the standard maximization form and the slack variables.
+
+    - From the module <em>Linear Algebra</em>, the chapter [«Inversion of matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/04-inverse-matrix/): the inverse of a square matrix.
+
+    - From the same module, the chapter [«System of linear equations»](https://fabiofurini.github.io/linear-algebra/systems/01-linear-systems/): systems of linear equations and the rank of a matrix.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a basis, the basic and non-basic variables and the dictionary of an LP problem in standard form;
+
+    - compute a basic feasible solution and its reduced costs;
+
+    - choose the pivot column and the pivot row, and recognize the certificate of unboundedness;
+
+    - update the dictionary with a pivoting operation, and run the simplex algorithm from the slack basis.
+
 ## 6.1 The standard  form of an LP problem in canonical max  form
 
 - We consider an LP problem in standard maximization form with $n+m$ non-negative variables and $m$ equality linear constraints obtained from an LP problem in canonical maximization form with $n$ non-negative variables and $m$ less-than-or-equal-to linear constraints by adding $m$ slack non-negative variables:
@@ -1810,6 +1830,18 @@ In the same dictionary also $\bar{c}_2 = 2 > 0$, so $x_2$ can be chosen as the p
     In dashed blue,  the contour lines $5\,x_1 + 2\,x_2 = 0$, $5\,x_1 + 2\,x_2 = \frac{40}{3}$ and $5\,x_1 + 2\,x_2 = 32$ of the objective function associated to the values taken in the three vertices.
 
 At the first iteration the pivot column $x_1$ was chosen among the two non-basic variables with a positive reduced cost. Choosing $x_2$ instead, the simplex algorithm reaches the same optimal solution after three pivoting operations, visiting the vertices $(0,4)$ and $\left(\frac{12}{5},\frac{24}{5}\right)$: the choice of the pivot column changes the path on the polyhedron and the number of iterations (see the exercise <em>Simplex algorithm with a different pivot column</em>, problem $P10$).
+
+## 6.5 In summary
+
+!!! chiave "In summary"
+
+    - A basis ${\boldsymbol A}_{\pazocal{B}}$ writes the basic variables and $z$ as functions of the non-basic ones: this is the dictionary.
+
+    - Setting the non-basic variables to $0$ gives the basic solution ${\boldsymbol x}_{\pazocal{B}} = {\boldsymbol A}_{\pazocal{B}}^{-1}{\boldsymbol b}$; if ${\boldsymbol b} \ge {\boldsymbol 0}$, the slack variables give an initial basic feasible solution.
+
+    - The pivot column has a positive reduced cost; the pivot row is chosen by the minimum ratio, so that the new solution stays feasible.
+
+    - If the pivot column has no positive entry $\bar a_{ip}$, the problem is unbounded (certificate of unboundedness).
 
 ---
 

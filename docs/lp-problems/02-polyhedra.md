@@ -10,6 +10,24 @@ title: "Half-spaces and polyhedra"
 
 </div>
 
+!!! nota "Prerequisites"
+
+    - From this module, [Chapter 1 «Linear functions»](https://fabiofurini.github.io/linear-programming/lp-problems/01-linear-functions/): linear functions, level sets and hyperplanes.
+
+    - From the module <em>Linear Algebra</em>, the chapter [«Matrices»](https://fabiofurini.github.io/linear-algebra/vectors-matrices/02-matrices/): a matrix ${\boldsymbol A} \in \R^{m \times n}$ and the product ${\boldsymbol A}{\boldsymbol x}$.
+
+!!! chiave "Objectives"
+
+    At the end of this chapter you will be able to:
+
+    - define a half-space and its supporting hyperplane, and draw them in the plane;
+
+    - write a polyhedron as ${\boldsymbol A}{\boldsymbol x} \le {\boldsymbol b}$, also with equality constraints;
+
+    - decide whether a polyhedron is bounded, and recognize a polytope;
+
+    - check, on an example, that a point or a segment between two points belongs to a polyhedron.
+
 ## 2.1 Half-spaces and supporting hyperplanes
 
 <a id="box-1-defXX"></a>
@@ -236,6 +254,16 @@ title: "Half-spaces and polyhedra"
     Its three-dimensional representation corresponds to the hyperplane shown in the figure.
 
     ![Figure 4](../img/02-polyhedra/fig04.svg){ .fig .ovale loading=lazy style="width:47%" }
+
+## 2.3 In summary
+
+!!! chiave "In summary"
+
+    - A half-space is $\{{\boldsymbol x} : {\boldsymbol a}{\boldsymbol x} \le b\}$; its supporting hyperplane is $\{{\boldsymbol x} : {\boldsymbol a}{\boldsymbol x} = b\}$.
+
+    - A polyhedron is the intersection of finitely many half-spaces, $\{{\boldsymbol x} : {\boldsymbol A}{\boldsymbol x} \le {\boldsymbol b}\}$; a hyperplane is the intersection of two opposite half-spaces.
+
+    - A polyhedron is bounded if every coordinate of its points is bounded; a bounded polyhedron is a polytope.
 
 ---
 
