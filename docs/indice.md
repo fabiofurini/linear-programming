@@ -123,14 +123,4 @@ lecture notes: on the website and in the PDF you find everything in the same pla
     - 15.4 The Fundamental Theorem, geometrically
     - 15.5 In summary
 
-## [Modelling](modelling/index.md)
-
-16. [Linear Programming modeling techniques](modelling/16-modelling.md)
-    - 16.1 From a problem description to an LP model
-    - 16.2 Production planning
-    - 16.3 Blending
-    - 16.4 Transportation
-    - 16.5 Multi-period planning
-    - 16.6 Linearization techniques
-    - 16.7 What cannot be modeled with Linear Programming
-    - 16.8 In summary
+Modelling — from the description of a problem to the linear programming model — is in the course [LP Modelling](https://fabiofurini.github.io/lp-modelling/modelling/).

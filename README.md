@@ -22,11 +22,13 @@ colors as the PDFs. **The site is under construction**: slides, interactive grap
 | 2 · The simplex algorithm | dictionaries, optimality and pivot rules, cycling and Bland's rule, Phase 0 |
 | 3 · Duality and the dual simplex | the dual problem, weak and strong duality, complementary slackness, the dual simplex algorithm |
 | 4 · Matrix methods, sensitivity and geometry | revised primal and dual simplex, the primal-dual method, sensitivity analysis, geometry of LP |
-| 5 · Modelling | modelling techniques and worked models |
 | Catalogue | the LP problems P0–P86 used in examples and exercises |
 | Exercises | exercises for every chapter, with worked solutions |
 
-The lecture notes and the exercise books in PDF (five volumes each) and the problem catalogue can be downloaded from the
+Modelling — from the description of a problem to the LP model — is in the course
+[LP Modelling](https://fabiofurini.github.io/lp-modelling/modelling/).
+
+The lecture notes and the exercise books in PDF (four volumes each) and the problem catalogue can be downloaded from the
 [downloads page](https://fabiofurini.github.io/linear-programming/downloads/).
 
 ## How it is built
@@ -36,7 +38,7 @@ notes; this repository contains the generated website (`docs/`, `mkdocs.yml`).
 To preview it locally:
 
 ```bash
-python3 -m pip install mkdocs-material
+python3 -m pip install mkdocs-material mkdocs-redirects
 python3 -m mkdocs serve            # preview at http://127.0.0.1:8000
 ```
 

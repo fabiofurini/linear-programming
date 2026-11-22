@@ -38,10 +38,4 @@ Exercises with **worked solutions**, chapter by chapter, as in the PDF exercise 
     - [14. Sensitivity analysis](ex-14-sensitivity.md) · 4 exercises
     - [15. The geometry of Linear Programming](ex-15-geometry.md) · 3 exercises
 
--   **Modelling**
-
-    ---
-
-    - [16. Linear Programming modeling techniques](ex-16-modelling.md) · 8 exercises
-
 </div>

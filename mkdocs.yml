@@ -56,6 +56,12 @@ not_in_nav: |
 plugins:
   - search:
       lang: en
+  # 22/11/2026: part 5 «Modelling» moved to the LP Modelling course: the old addresses lead there
+  - redirects:
+      redirect_maps:
+        modelling/index.md: https://fabiofurini.github.io/lp-modelling/modelling/
+        modelling/16-modelling.md: https://fabiofurini.github.io/lp-modelling/techniques/
+        exercises/ex-16-modelling.md: https://fabiofurini.github.io/lp-modelling/techniques/#exercises
 
 extra:
   social:
@@ -178,9 +184,6 @@ nav:
       - "13. The primal-dual method": advanced-methods/13-primal-dual.md
       - "14. Sensitivity analysis": advanced-methods/14-sensitivity.md
       - "15. The geometry of Linear Programming": advanced-methods/15-geometry.md
-  - Modelling:
-      - modelling/index.md
-      - "16. Linear Programming modeling techniques": modelling/16-modelling.md
   - Exercises:
       - exercises/index.md
       - "2. Half-spaces and polyhedra": exercises/ex-02-polyhedra.md
@@ -197,7 +200,6 @@ nav:
       - "13. The primal-dual method": exercises/ex-13-primal-dual.md
       - "14. Sensitivity analysis": exercises/ex-14-sensitivity.md
       - "15. The geometry of Linear Programming": exercises/ex-15-geometry.md
-      - "16. Linear Programming modeling techniques": exercises/ex-16-modelling.md
   - Quiz: self-assessment.md
   - Lab: lab/index.md
   - Catalogue:

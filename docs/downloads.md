@@ -42,14 +42,6 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 
     [:octicons-download-24: lecture-notes-4-advanced-methods.pdf](pdf/lecture-notes-4-advanced-methods.pdf)
 
--   :material-book-open-variant: **Lecture notes, volume 5 · Modelling**
-
-    ---
-
-    Techniques for writing a linear programming model from the description of a problem (production, blending, transportation, multi-period planning, linearizations), with worked examples. Complete models are in Exercises 5.
-
-    [:octicons-download-24: lecture-notes-5-modelling.pdf](pdf/lecture-notes-5-modelling.pdf)
-
 -   :material-book-open-variant: **Problem catalogue · Catalogue of LP problems**
 
     ---
@@ -96,14 +88,6 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 
     [:octicons-download-24: exercises-4-advanced-methods.pdf](pdf/exercises-4-advanced-methods.pdf)
 
--   :material-pencil-box-multiple: **Exercises, volume 5 · Linear programming models**
-
-    ---
-
-    Worked linear programming models: symbolic models with their instance, a feasible solution and a dual bound, and numerical models.
-
-    [:octicons-download-24: exercises-5-modelling.pdf](pdf/exercises-5-modelling.pdf)
-
 </div>
 
 ## Slides
@@ -134,10 +118,6 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 - :material-presentation: [Chapter 13 · The primal-dual method](pdf/slides-13-primal-dual.pdf)
 - :material-presentation: [Chapter 14 · Sensitivity analysis](pdf/slides-14-sensitivity.pdf)
 - :material-presentation: [Chapter 15 · The geometry of Linear Programming](pdf/slides-15-geometry.pdf)
-
-### Modelling
-
-- :material-presentation: [Chapter 16 · Linear Programming modeling techniques](pdf/slides-16-modelling.pdf)
 
 <!-- banca-domande -->
 ## Quiz question bank

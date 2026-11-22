@@ -17,10 +17,12 @@ Teaching material conceived and developed by **[Fabio Furini](https://fabiofurin
 professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
 **The course lecture notes, online**: linear programming problems, polyhedra, the simplex algorithm,
-duality, advanced methods and modelling techniques, with definitions, theorems with their proofs,
+duality and advanced methods, with definitions, theorems with their proofs,
 examples worked out step by step and exercises with solutions.
 
 Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
+
+Modelling — from the description of a problem to the linear programming model — is in the course [LP Modelling](https://fabiofurini.github.io/lp-modelling/modelling/).
 
 [Start :material-arrow-right:](lp-problems/index.md){ .md-button .md-button--primary }
 [:material-pencil: Exercises](exercises/index.md){ .md-button }
@@ -83,16 +85,6 @@ The graphical method: the level line is already on the optimal vertex, the last 
     11\. Revised simplex algorithm · 12\. Revised dual simplex algorithm · 13\. The primal-dual method · 14\. Sensitivity analysis · 15\. The geometry of Linear Programming
 
     [:octicons-arrow-right-24: The chapters](advanced-methods/index.md)
-
--   :material-lightbulb-on-outline: **5 · Modelling**
-
-    ---
-
-    Techniques for writing a linear programming model from the description of a problem (production, blending, transportation, multi-period planning, linearizations), with worked examples. Complete models are in Exercises 5.
-
-    16\. Linear Programming modeling techniques
-
-    [:octicons-arrow-right-24: The chapters](modelling/index.md)
 
 </div>
 
