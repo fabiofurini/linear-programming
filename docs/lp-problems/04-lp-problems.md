@@ -100,7 +100,17 @@ title: "Linear Programming problems"
 
 <a id="box-2-exLPCanonical"></a>
 
-!!! esempio "Example 4.1: LP problem in canonical maximization form"
+!!! esempio "Example 4.1: LP problem in canonical maximization form: the paint production example"
+
+    <strong>The paint production example.</strong> This LP problem is the guiding example of the module. A company produces two paints, an exterior paint and an interior paint: $x_1$ and $x_2$ are the tonnes of exterior and interior paint produced per day, real numbers because paint is divisible.
+
+    - The profit is $5$ for a tonne of exterior paint and $2$ for a tonne of interior paint (in thousands of euros): the objective maximizes the total profit $5x_1+2x_2$.
+
+    - First constraint (market): three times the interior paint can exceed the exterior paint by at most $12$ tonnes, that is, $-x_1+3x_2 \le 12$.
+
+    - Second constraint: the mixing plant is available for $12$ hours per day; a tonne of exterior paint takes $1$ hour and a tonne of interior paint $2$.
+
+    - Third constraint (market): three times the exterior paint can exceed twice the interior paint by at most $8$ tonnes, that is, $3x_1-2x_2 \le 8$.
 
     Consider the following input data of an LP problem with $n=2$ and $m=3$:
 
@@ -146,6 +156,8 @@ title: "Linear Programming problems"
     & {x_1,} &  & {x_2} & { \ge} & {0}
     \end{array}
     $$
+
+    Building models from real problems is the subject of the module [«LP Modelling»](https://fabiofurini.github.io/lp-modelling/modelling/).
 
 <a id="box-3-ex-lp-2"></a>
 
@@ -390,6 +402,8 @@ title: "Linear Programming problems"
     $$
     z(\, LP \,)= 5\; \tilde{x}_1 + 2 \; \tilde{x}_2= 5 \cdot 5 + 2 \cdot \frac{7}{2} = 32
     $$
+
+    In the paint production example, the company produces $5$ tonnes of exterior paint and $\frac{7}{2}$ tonnes of interior paint per day, with a profit of $32$ thousand euros: a fractional quantity of paint is a natural answer.
 
     ![Figure 4](../img/04-lp-problems/fig04.svg){ .fig .cornice loading=lazy style="width:88%" }
 

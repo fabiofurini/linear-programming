@@ -72,7 +72,7 @@ title: "The geometry of Linear Programming"
 
 !!! esempio "Example 15.1: dimension of a polyhedron"
 
-    - The feasible region of the LP problem in canonical maximization form
+    - The feasible region of the LP problem (the paint production example of Chapter 4) in canonical maximization form
 
         $$
         \begin{array}{rrrrrrrrrrrrr}

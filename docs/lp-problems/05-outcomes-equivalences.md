@@ -60,7 +60,7 @@ title: "Possible outcomes and equivalent formulations"
 
 !!! esempio "Example 5.1: guiding LP problem in canonical maximization form"
 
-    The first guiding example is the following LP problem in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints:
+    The first guiding example is the paint production example of Chapter 4, the following LP problem in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints:
 
     $$
     \begin{array}{rrrrrrrrrrrrr}

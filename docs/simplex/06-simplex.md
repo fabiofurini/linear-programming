@@ -141,7 +141,7 @@ title: "Simplex algorithm"
 
 !!! esempio "Example 6.1: standard max form of LP problems in canonical max form"
 
-    We consider the following LP problem in canonical  max form with $n=2$ variables and $m=3$ constraints:
+    We consider the following LP problem (the paint production example of Chapter 4) in canonical  max form with $n=2$ variables and $m=3$ constraints:
 
     $$
     \begin{array}{rrrrrrrrrrrrr}

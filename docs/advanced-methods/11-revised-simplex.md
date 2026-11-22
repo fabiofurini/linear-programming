@@ -36,7 +36,7 @@ title: "Revised simplex algorithm"
 
     <div class="minipage" style="width:41%" markdown>
 
-    We consider the following LP problem in canonical maximization form with $n=2$ variables and $m=3$ constraints:
+    We consider the following LP problem (the paint production example of Chapter 4) in canonical maximization form with $n=2$ variables and $m=3$ constraints:
 
     $$
     \begin{array}{rrrrrrrrrrrrr}

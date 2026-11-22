@@ -64,7 +64,7 @@ title: "Duality theory"
 
 !!! esempio "Example 9.1: pair of primal and dual problems"
 
-    Let us consider the following primal problem $LP$ in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints (<span style="color:#1971c2">[Example 9.1](#box-2-ex-dual-1)</span>):
+    Let us consider the following primal problem $LP$ (the paint production example of Chapter 4) in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints (<span style="color:#1971c2">[Example 9.1](#box-2-ex-dual-1)</span>):
 
     $$
     \begin{array}{rrrrrrrrrrrrr}

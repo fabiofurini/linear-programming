@@ -68,7 +68,7 @@ title: "Sensitivity analysis"
 
 !!! esempio "Example 14.1: optimal basis"
 
-    Consider the following LP problem in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints:
+    Consider the following LP problem (the paint production example of Chapter 4) in canonical maximization form with $n=2$ non-negative variables and $m=3$ less-than-or-equal-to linear constraints:
 
     $$
     \begin{array}{rrrrrrrrrrrrr}
