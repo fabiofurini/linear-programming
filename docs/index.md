@@ -21,8 +21,6 @@ with their possible outcomes; the simplex algorithm with phase 0; duality theory
 method; the revised simplex, the primal-dual method, sensitivity analysis and the geometry of
 linear programming.
 
-Every chapter has definitions, theorems with proofs, examples worked out step by step and exercises with solutions.
-
 Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 
 Modelling — from the description of a problem to the linear programming model — is in the course [LP Modelling](https://fabiofurini.github.io/lp-modelling/modelling/).
