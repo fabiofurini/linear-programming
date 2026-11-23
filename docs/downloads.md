@@ -42,14 +42,6 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 
     [:octicons-download-24: lecture-notes-4-advanced-methods.pdf](pdf/lecture-notes-4-advanced-methods.pdf)
 
--   :material-book-open-variant: **Problem catalogue · Catalogue of LP problems**
-
-    ---
-
-    The linear programming problems used in the examples and exercises of the whole course, cited by their code P0--P86: problems with two and three variables, in four types (A: non-negative right-hand sides; B: dual simplex; C: Phase 0 needed; D: unbounded, infeasible or with multiple optima). For each, the problem and the figure of its feasible region.
-
-    [:octicons-download-24: lp-problem-catalogue.pdf](pdf/lp-problem-catalogue.pdf)
-
 </div>
 
 ## Exercises
@@ -118,6 +110,20 @@ The lecture notes and the exercise books in PDF, updated at every publication of
 - :material-presentation: [Chapter 13 · The primal-dual method](pdf/slides-13-primal-dual.pdf)
 - :material-presentation: [Chapter 14 · Sensitivity analysis](pdf/slides-14-sensitivity.pdf)
 - :material-presentation: [Chapter 15 · The geometry of Linear Programming](pdf/slides-15-geometry.pdf)
+
+## Other documents
+
+<div class="grid cards" markdown>
+
+-   :material-file-document-outline: **Problem catalogue · Catalogue of LP problems**
+
+    ---
+
+    The linear programming problems used in the examples and exercises of the whole course, cited by their code P0--P86: problems with two and three variables, in four types (A: non-negative right-hand sides; B: dual simplex; C: Phase 0 needed; D: unbounded, infeasible or with multiple optima). For each, the problem and the figure of its feasible region.
+
+    [:octicons-download-24: lp-problem-catalogue.pdf](pdf/lp-problem-catalogue.pdf)
+
+</div>
 
 <!-- banca-domande -->
 ## Quiz question bank
