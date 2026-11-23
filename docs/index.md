@@ -16,9 +16,12 @@ hide:
 Teaching material conceived and developed by **[Fabio Furini](https://fabiofurini.github.io/)**, associate
 professor at [DIAG](https://www.diag.uniroma1.it/), Sapienza University of Rome.
 
-**The course lecture notes, online**: linear programming problems, polyhedra, the simplex algorithm,
-duality and advanced methods, with definitions, theorems with their proofs,
-examples worked out step by step and exercises with solutions.
+The course presents linear programming: linear functions, polyhedra and linear programming problems
+with their possible outcomes; the simplex algorithm with phase 0; duality theory and the dual simplex
+method; the revised simplex, the primal-dual method, sensitivity analysis and the geometry of
+linear programming.
+
+Every chapter has definitions, theorems with proofs, examples worked out step by step and exercises with solutions.
 
 Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 
