@@ -23,8 +23,6 @@ linear programming.
 
 Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 
-Modelling — from the description of a problem to the linear programming model — is in the course [LP Modelling](https://fabiofurini.github.io/lp-modelling/modelling/).
-
 [Start :material-arrow-right:](lp-problems/index.md){ .md-button .md-button--primary }
 [:material-pencil: Exercises](exercises/index.md){ .md-button }
 [:material-gesture-tap: Lab](lab/index.md){ .md-button }
