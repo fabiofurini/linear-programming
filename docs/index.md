@@ -51,17 +51,13 @@ The graphical method: the level line is already on the optimal vertex, the last 
 
     Linear functions (gradient, Hessian and level sets), half-spaces and polyhedra, linear optimization problems with their optimal solutions, examples and properties, the canonical and standard forms with the graphical method, possible outcomes and equivalences between forms.
 
-    1\. Linear functions · 2\. Half-spaces and polyhedra · 3\. Linear optimization problems · 4\. Linear Programming problems · 5\. Possible outcomes and equivalent formulations
-
     [:octicons-arrow-right-24: The chapters](lp-problems/index.md)
 
 -   :material-stairs-up: **2 · The simplex algorithm**
 
     ---
 
-    The simplex algorithm on dictionaries, optimality conditions, pivot rules and cycling, Phase 0 with the auxiliary problem. Examples worked out step by step and exercises with complete solutions at the end of each chapter.
-
-    6\. Simplex algorithm · 7\. Optimality conditions and pivot rules · 8\. Phase 0 of the simplex algorithm
+    The simplex algorithm on dictionaries, optimality conditions, pivot rules and cycling, Phase 0 with the auxiliary problem.
 
     [:octicons-arrow-right-24: The chapters](simplex/index.md)
 
@@ -69,9 +65,7 @@ The graphical method: the level line is already on the optimal vertex, the last 
 
     ---
 
-    The dual problem, weak and strong duality, the possible outcomes of a primal-dual pair, complementary slackness; the dual simplex algorithm, infeasibility certificates and re-optimization. Examples worked out step by step and exercises with complete solutions at the end of each chapter.
-
-    9\. Duality theory · 10\. Dual Simplex algorithm
+    The dual problem, weak and strong duality, the possible outcomes of a primal-dual pair, complementary slackness; the dual simplex algorithm, infeasibility certificates and re-optimization.
 
     [:octicons-arrow-right-24: The chapters](duality/index.md)
 
@@ -79,9 +73,7 @@ The graphical method: the level line is already on the optimal vertex, the last 
 
     ---
 
-    The revised primal and dual simplex, the primal-dual method, sensitivity analysis, the geometry of linear programming (faces, vertices and basic solutions). Examples worked out step by step and exercises with complete solutions at the end of each chapter.
-
-    11\. Revised simplex algorithm · 12\. Revised dual simplex algorithm · 13\. The primal-dual method · 14\. Sensitivity analysis · 15\. The geometry of Linear Programming
+    The revised primal and dual simplex, the primal-dual method, sensitivity analysis, the geometry of linear programming (faces, vertices and basic solutions).
 
     [:octicons-arrow-right-24: The chapters](advanced-methods/index.md)
 
