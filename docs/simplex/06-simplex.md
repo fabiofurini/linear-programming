@@ -1853,7 +1853,7 @@ At the first iteration the pivot column $x_1$ was chosen among the two non-basic
 
 ## Interactive lab { #interactive-lab }
 
-The ideas of the chapter, hands on: move the sliders and drag the points.
+The apps of this chapter: move the sliders and drag the points.
 Each app also opens full page in the [interactive lab](../lab/index.md): [The simplex method step by step](../lab/simplex-steps.md).
 
 <div class="gi" data-grafico="simplesso-passi"></div>

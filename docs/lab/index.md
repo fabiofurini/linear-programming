@@ -5,7 +5,7 @@ hide:
 
 # Interactive lab
 
-Here you can get your hands on linear programming. Pick an app: it opens full page.
+Each app illustrates a topic of the course. Pick an app: it opens full page.
 Drag the points and move the sliders; the ▶ button next to a parameter makes it move by itself.
 The problems come from the [catalogue](../catalogue/index.md), with the numbers as exact fractions.
 

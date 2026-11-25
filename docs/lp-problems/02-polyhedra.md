@@ -273,7 +273,7 @@ title: "Half-spaces and polyhedra"
 
 ## Interactive lab { #interactive-lab }
 
-The ideas of the chapter, hands on: move the sliders and drag the points.
+The apps of this chapter: move the sliders and drag the points.
 Each app also opens full page in the [interactive lab](../lab/index.md): [Half-spaces and polyhedra](../lab/polyhedra.md).
 
 <div class="gi" data-grafico="poliedro"></div>

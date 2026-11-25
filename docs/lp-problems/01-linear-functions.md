@@ -233,7 +233,7 @@ title: "Linear functions"
 
 ## Interactive lab { #interactive-lab }
 
-The ideas of the chapter, hands on: move the sliders and drag the points.
+The apps of this chapter: move the sliders and drag the points.
 Each app also opens full page in the [interactive lab](../lab/index.md): [Level lines](../lab/level-lines.md).
 
 <div class="gi" data-grafico="livello-lineare"></div>

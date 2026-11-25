@@ -701,7 +701,7 @@ title: "Possible outcomes and equivalent formulations"
 
 ## Interactive lab { #interactive-lab }
 
-The ideas of the chapter, hands on: move the sliders and drag the points.
+The apps of this chapter: move the sliders and drag the points.
 Each app also opens full page in the [interactive lab](../lab/index.md): [The outcomes of an LP problem](../lab/outcomes.md).
 
 <div class="gi" data-grafico="esiti"></div>
