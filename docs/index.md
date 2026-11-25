@@ -34,7 +34,7 @@ Prerequisites: [Linear Algebra](https://fabiofurini.github.io/linear-algebra/).
 <!-- collana-app -->
 ## Try it now
 
-The graphical method: the level line is already on the optimal vertex, the last point of the feasible region it touches moving along the gradient. Set k back to zero and press ▶ to slide it, or change problem.
+The graphical method finds the optimal solution of a linear programming problem with two variables: the level line slides along the gradient up to the last point of the feasible region it touches, the optimal vertex. Here the line is already on the optimal vertex: set k back to zero and press ▶ to slide it, or change problem.
 
 <div class="gi" data-grafico="metodo-grafico" data-vetrina="P2"></div>
 
