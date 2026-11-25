@@ -85,6 +85,14 @@ The graphical method: the level line is already on the optimal vertex, the last 
 
     [:octicons-arrow-right-24: The chapters](advanced-methods/index.md)
 
+-   :material-chart-line: **LP Modelling**
+
+    ---
+
+    From the description of a problem to the linear programming model, solved with Python and Gurobi: modelling techniques and case studies. It is a separate module of the series.
+
+    [:octicons-arrow-right-24: The LP Modelling module](https://fabiofurini.github.io/lp-modelling/)
+
 </div>
 
 <!-- collana-da-non-perdere -->
